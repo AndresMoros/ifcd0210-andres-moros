@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tablas II</title>
+    <style>
+      body {
+        max-width: 700px;
+        background: #ffc6c6;
+        font-family: "Cascadia Code", Arial, Helvetica, sans-serif;
+      }
+      .center {
+        margin: 0 auto;
+      }
+      .img-container {
+        width: 100%;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+      }
+      .img-container img {
+        height: 100%;
+        text-align: center;
+      }
+      article {
+        text-align: center;
+        margin-top: 2rem;
+      }
+      .colored-table tr:nth-child(odd) {
+        background: rgb(176, 176, 176);
+      }
+      .colored-table tr:nth-child(even) {
+        background: rgb(240, 240, 255);
+      }
+    </style>
+  </head>
+  <body class="center">
+    <section class="task-description">
+      <p>Ejercios</p>
+      <ul>
+        <li>Crea las tablas que se muestran en la siguiente imagen</li>
+        <li>
+          Centrar las tablas respecto de la ventana del navegador y también sus
+          contenidos
+        </li>
+        <li>Separa las tablas entre sí mediante una línea horizonal</li>
+        <li>
+          Aplicar en las tablas formato similar al mostrado en la iamgen usando
+          reglas CSS dentro del atributo style
+        </li>
+        <li>En la tercera tabla usar la fuente Arial</li>
+      </ul>
+      <div class="img-container center">
+        <img src="tablas.png" alt="" />
+      </div>
+    </section>
+    <section>
+      <article>
+        <!-- Ejercicio 1 -->
+        <table class="films" border="1" align="center">
+          <caption>
+            Filmografía
+          </caption>
+          <thead>
+            <tr>
+              <th>Actor/Actriz</th>
+              <th>Número de películas</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Ben Affleck</td>
+              <td>51</td>
+            </tr>
+            <tr>
+              <td>Rosamund Pike</td>
+              <td>35</td>
+            </tr>
+            <tr>
+              <td>Antonio Banderas</td>
+              <td>47</td>
+            </tr>
+            <tr>
+              <td>Clint Eastwood</td>
+              <td>96</td>
+            </tr>
+            <tr>
+              <td>Meryl Streep</td>
+              <td>77</td>
+            </tr>
+          </tbody>
+        </table>
+      </article>
+      <hr />
+      <article>
+        <!-- Ejercicio 2 -->
+        <table class="films" border="1" align="center">
+          <caption>
+            Filmografía
+          </caption>
+          <thead>
+            <tr>
+              <th colspan="4" bgcolor="#ddd">Curso 2019/2020</th>
+            </tr>
+            <tr>
+              <th colspan="2">1º ESO - A</th>
+              <th colspan="2">1º ESO - B</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Aprobados</td>
+              <td>Suspendidos</td>
+              <td>Aprobados</td>
+              <td>Suspendidos</td>
+            </tr>
+            <tr>
+              <td>68%</td>
+              <td>57%</td>
+              <td>32%</td>
+              <td>43%</td>
+            </tr>
+          </tbody>
+        </table>
+      </article>
+      <hr />
+      <article>
+        <!-- Ejercicio 2 -->
+        <table class="films" border="1" align="center">
+          <caption>
+            Ventas de productos
+          </caption>
+          <thead>
+            <tr bgcolor="#000" style="color: #fff">
+              <th>Código producto</th>
+              <th>Nombre</th>
+              <th>Cantidad Vendida</th>
+              <th>Precio Unitario</th>
+              <th>Subtotal</th>
+              <th>Fecha de Venta</th>
+            </tr>
+          </thead>
+          <tbody class="colored-table">
+            <tr>
+              <td>INF632</td>
+              <td>Monitor 23" LG</td>
+              <td>5</td>
+              <td>196,00 $</td>
+              <td>980,00 $</td>
+              <td>19-02-2022</td>
+            </tr>
+            <tr>
+              <td>INF632</td>
+              <td>Monitor 23" LG</td>
+              <td>5</td>
+              <td>196,00 $</td>
+              <td>980,00 $</td>
+              <td>19-02-2022</td>
+            </tr>
+            <tr>
+              <td>INF632</td>
+              <td>Monitor 23" LG</td>
+              <td>5</td>
+              <td>196,00 $</td>
+              <td>980,00 $</td>
+              <td>19-02-2022</td>
+            </tr>
+            <tr>
+              <td>INF632</td>
+              <td>Monitor 23" LG</td>
+              <td>5</td>
+              <td>196,00 $</td>
+              <td>980,00 $</td>
+              <td>19-02-2022</td>
+            </tr>
+          </tbody>
+        </table>
+      </article>
+    </section>
+  </body>
+</html>

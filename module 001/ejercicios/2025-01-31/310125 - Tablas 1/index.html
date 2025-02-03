@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tablas I</title>
+    <style>
+      table {
+        min-width: 300px;
+        margin: 100px auto;
+      }
+      /* tr {
+        background: #f18585;
+      } */
+      th {
+        background: #96ff9c;
+      }
+      tr:nth-child(odd) {
+        background: #f18585;
+      }
+      tr:nth-child(even) {
+        background: #febbbb;
+      }
+    </style>
+  </head>
+  <body>
+    <table border="1px" cellspacing="0" bgcolor="#ddd">
+      <caption>
+        Un video más mi gente para perder el tiempo
+      </caption>
+      <thead>
+        <tr>
+          <th>Nombre</th>
+          <th>Apellido</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr height="50px">
+          <td>Kuker</td>
+          <td>Moros</td>
+        </tr>
+        <tr height="50px">
+          <td>Anais</td>
+          <td>Rojas</td>
+        </tr>
+        <tr height="50px">
+          <td>Sofia</td>
+          <td>Touroweroff</td>
+        </tr>
+        <tr height="50px">
+          <td>Angel</td>
+          <td>Profe</td>
+        </tr>
+      </tbody>
+    </table>
+    <hr />
+    <table border="1px" cellspacing="0" bgcolor="#ddd">
+      <tr>
+        <th>Nombre</th>
+        <th>Apellido</th>
+      </tr>
+      <tr height="50px">
+        <td>Kuker</td>
+        <td>Moros</td>
+      </tr>
+      <tr height="50px">
+        <td>Anais</td>
+        <td>Rojas</td>
+      </tr>
+      <tr height="50px">
+        <td>Sofia</td>
+        <td>Touroweroff</td>
+      </tr>
+      <tr height="50px">
+        <td colspan="2F">Angel Profe</td>
+      </tr>
+      <tr height="50px">
+        <td>Andrea</td>
+        <td>Araujo</td>
+      </tr>
+      <tr height="50px">
+        <td>Jorge</td>
+        <td>Rodriguez</td>
+      </tr>
+    </table>
+    <hr />
+    <table border="1px" cellspacing="0" bgcolor="#ddd" style="text-align: center;">
+      <tr>
+        <th>A</th>
+        <th>B</th>
+        <th>C</th>
+        <th>D</th>
+      </tr>
+      <tr>
+        <td colspan="3">A1 B1 C1</td>
+        <td>D1</td>
+      </tr>
+      <tr>
+        <td>A2</td>
+        <td>B2</td>
+        <td rowspan="2">C2<br>C3</td>
+        <td>D2</td>
+      </tr>
+      <tr>
+        <td>A3</td>
+        <td>B3</td>
+        <td>D3</td>
+      </tr>
+      <tr>
+        <td>A4</td>
+        <td>B4</td>
+        <td>C4</td>
+        <td>D4</td>
+      </tr>
+      <tr>
+        <td>A5</td>
+        <td>B5</td>
+        <td>C5</td>
+        <td>D5</td>
+      </tr>
+    </table>
+  </body>
+</html>

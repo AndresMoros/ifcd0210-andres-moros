@@ -1,0 +1,39 @@
+/* general styles */
+html {
+  font-family: "Cascadia Code", Arial, Helvetica, sans-serif;
+}
+body h1 {
+  text-align: center;
+}
+body {
+  margin: 0 auto;
+  max-width: 600px;
+}
+ul {
+  list-style: circle;
+}
+ul li {
+  height: 2rem;
+}
+li a {
+  text-decoration: none;
+  color: black;
+}
+li a:hover {
+  color: #969696;
+}
+/* index.html styles */
+table a {
+  color: black;
+  text-decoration: none;
+}
+table td:hover {
+  transition: 0.3s ease-in-out;
+  background: #ccc;
+  cursor: pointer;
+  border: 1px solid transparent;
+}
+table td a {
+  display: block;
+  width: 100%;
+}

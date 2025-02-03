@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contenedores semánticos</title>
+    <style>
+        body {
+            max-width: 400px;
+            margin: 0 auto;
+        }
+        p {
+            color: white;
+        }
+        header,
+        nav,
+        article,
+        main,
+        section,
+        footer,
+        aside {
+            border: 1px solid black;
+            margin: 2px;
+        }
+        header,
+        main,
+        aside,
+        footer {
+            background: #4b9787;
+        }
+        
+        section,
+        nav {
+            background: #996d0f;
+        }
+        article {
+            background: #fdb084;
+        }
+    </style>
+  </head>
+  <body>
+    <header>
+      <p>&ltheader&gt</p>
+      <nav>
+        <p>&ltnav&gt</p>
+      </nav>
+    </header>
+    <main>
+      <p>&ltmain&gt</p>
+      <section>
+        <p>&ltsection&gt</p>
+        <article>
+          <p>&ltarticle&gt</p>
+        </article>
+        <article>
+          <p>&ltarticle&gt</p>
+        </article>
+      </section>
+    </main>
+    <aside>
+        <p>&ltaside&gt</p>
+      </aside>
+      <footer>
+        <p>&ltfooter&gt</p>
+      </footer>
+  </body>
+</html>

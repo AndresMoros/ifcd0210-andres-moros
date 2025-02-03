@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		
+		<title>Enlace Ancla Externa</title>
+		<meta charset="utf-8">
+		
+	</head>
+	<body>
+		<div style ="width:50%;margin:auto;text-align:justify">
+		<p>
+			Crear enlaces de anclaje
+			Última actualización 1 de mayo de 2021
+			SECCIONES
+			Paso 1 – Crear un enlace
+			Paso 2: Agrega la URL y el slug de la página
+			Paso 3: Crea una identificación única
+			Paso 4 - Vincula la identificación única con una sección de tu página
+			Paso 5 - Guarda
+			Usar diferentes tipos de enlaces
+			Formato del texto de destino
+			Slugs de página y enlaces de anclaje
+			Enlace al inicio
+			Limitaciones y mejores prácticas
+			Resolución de problemas
+			Ajax y enlaces ancla (versión 7.0)
+			Enlaces ancla en páginas de índice (versión 7.0)
+			Un enlace ancla ("salto de página") es una URL especial que te lleva a un lugar específico de la página. Por ejemplo, el índice de esta guía contiene enlaces ancla que te dirigen a cada encabezado.
+
+			Esta guía explica cómo agregar enlaces ancla a cualquier sección de bloques de tu sitio con un bloque de código.
+
+			Paso 1 – Crear un enlace
+			Agrega el enlace en el que harán clic los que visitan el sitio. Puedes usar cualquier tipo de enlace, pero este ejemplo muestra un enlace de texto.
+
+			En un bloque de texto, escribe el texto que deseas vincular, resáltalo y haz clic en el ícono de enlace de la barra de herramientas Bloque de texto.
+
+			Paso 2: Agrega la URL y el slug de la página
+			Para ciertos enlaces ancla, este paso es optativo, pero lo recomendamos para la mayoría de los enlaces.
+
+			En el campo de dirección web, agrega:
+
+			La URL de tu sitio
+			El slug de tu página a las que quieres vincular (incluso si están en la misma página)
+			Una barra adicional (/)
+			Debería verse así:
+
+			https://examplesite.com/pageslug/
+			Haz clic en el icono del engranaje para verificar que Abrir en una ventana nueva esté desactivado si quieres que los que visitan la página permanezcan en ella.
+
+			Consejo: si cambias tu dominio principal o actualizas el slug de la página en el futuro, también debes actualizar el enlace ancla.
+			Paso 3: Crea una identificación única
+			Después del slug de tu página, ingresa un símbolo de numeral o hashtag (#) seguido por texto. El texto que crees será tu identificación única.
+
+			El texto de tu identificación única puede ser el que quieras, pero no puede tener espacios. Separa las palabras con un guión en su lugar.
+			Las ID únicas distinguen entre mayúsculas y minúsculas y se pueden usar una vez por página. Consulta nuestros consejos de mejores prácticas si necesitas más ayuda.
+			Después de agregar el ID único, la URL debería verse así:
+
+			https://examplesite.com/pageslug/#unique-id
+			Haz clic en Guardar y, a continuación, en Aplicar para guardar el vínculo.
+
+			Paso 4 - Vincula la identificación única con una sección de tu página
+			En el editor de páginas, desplázate hasta la sección a la que deseas que el enlace lleve a los visitantes y agrega un bloque de código.
+
+			En el campo de código, agrega:
+
+		<p id="unique-id">This is where the link will jump to</p>
+			Dentro de la primera etiqueta, reemplaza unique-ID entre comillas con tu ID único específico. ReemplazarAquí es a donde pasará el enlace con cualquier texto que desees mostrar en tu sitio aquí.
+
+			Consejo: No incluyas el slug de página o la etiqueta de tu enlace de anclaje.
+			The_unique_ID_of_an_anchor_link_added_to_a_Code_Block.png
+
+			Paso 5 - Guarda
+			Haz clic en Guardar para publicar los cambios. El enlace que has establecido en el Paso 1 ahora llevará a los que visiten el sitio al texto que has configurado en el Paso 4.
+
+			Usar diferentes tipos de enlaces
+			El ejemplo anterior usa el cuerpo del texto como enlace ancla en el paso 1, pero puedes utilizar cualquier tipo de enlace, incluidos los botones y clickthrough de imágenes. Visita Cómo agregar enlaces al sitio para conocer las diferentes opciones de enlaces.
+
+			Para todos los tipos de enlace, agrega la URL y crea el ID único como se muestra en los pasos 2 y 3 anteriores utilizando este formato:
+
+			https://examplesite.com/pageslug/#unique-id
+			Formato del texto de destino
+			Para dar formato al texto de la página de aterrizaje que sea distinto al del cuerpo del texto, cambia las etiquetas &lt p &gt y &lt /p &gt en el paso 4. Si no estás familiarizado con HTML, intenta usar etiquetas de Encabezado 1: &lt h &gt&lt /h1 &gt.
+
+			Cuando uses diferentes etiquetas, agrega la identificación única como lo hiciste en el Paso 4:
+
+			Format_the_anchor_link_text_as_a_header.png
+
+			Slugs de página y enlaces de anclaje
+			Te recomendamos que agregues la URL y el slug de página antes de la identificación única en la mayoría de los casos. Si un enlace ancla no tiene el slug de página, no funcionará en ninguno de estos lugares:
+
+			En Internet Explorer
+			Si tu enlace es un enlace de navegación
+			Si estás enlazando con otra página
+			Los enlaces ancla sin la URL del sitio también pueden tener problemas en los navegadores móviles de Safari. Para encontrar la URL de tu página, visita los slugs de URL.
+
+			Si sabes que ninguno de los que visitan el sitio usa el browser de Safari o Internet Explorer para dispositivos móviles, y estás creando un enlace a un lugar de la misma página (por ejemplo, desplazándote a un encabezado que está más abajo), puedes usar el formato #unique-id sin la URL o el slug de página.
+
+			Consejo: para ver qué navegadores usan los que visitan el sitio, mira el panel Analytics del Tráfico.
+			Enlace al inicio
+			Para crear un enlace con el inicio de la página, vincula el encabezado usando la Inserción de código. La Inserción de código es una función premium.
+
+			Agrega texto y un enlace ancla a la parte inferior de la página o al pie de página como se describe en los pasos 1 a 3, pero no incluyas la URL de tu sitio o una barra diagonal (/) antes del identificador único. Puede que desees usar Volver arriba como texto y #arriba como ID único.
+			En el menú de Inicio, haz clic en Configuración, en Avanzada y después en Inserción de código.
+			En el campo Encabezado, agrega este código: <a id="top"></a>. Si usaste un ID único que no sea #top cuando creaste el enlace, asegúrate de reemplazarlo en la primera etiqueta <a>.
+			Haz clic en Guardar.
+			Este método permite enlazar a la parte superior de cada página en todo tu sitio. Puedes utilizar el mismo proceso para enlazar a la parte superior de una sola página agregando el código a la configuración avanzada de la página.
+
+			Limitaciones y mejores prácticas
+			Los enlaces de anclaje pueden ser una herramienta poderosa para ayudar a los visitantes a navegar por el sitio, pero es bueno tener algunas cosas en mente.
+
+			Un indicador solo se puede utilizar una vez en cada página
+			Por ejemplo, después de usar el ID panda en tu página de inicio, no puedes agregar panda como ID más adelante en esta página. Puedes usarlo en una página diferente, pero no una segunda vez en tu página de inicio.
+
+			Los identificadores distinguen mayúsculas y minúsculas
+			Si tu HTML dice id="Panda", pero tu enlace muestra el ID como #panda, el enlace no funcionará.
+
+			El indicador único se convierte en parte de la URL después de hacer clic en el enlace de anclaje
+			Cuando un visitante hace clic en un enlace de anclaje, el único identificador aparece al final de la URL del sitio.
+
+
+
+			Puedes utilizar cualquier texto como identificador único
+			Crear un identificador memorable puede simplificar el proceso de configuración y te puede ayudar a solucionar problemas si algo sale mal. Los identificadores memorables son, a menudo, los que tienen sentido lógico, por ejemplo, usando #top (arriba) para un enlace de "Volver arriba".
+
+			Los enlaces de anclaje también pueden ser una manera de añadir humor y personalidad al sitio. Recuerda que los visitantes podrán ver el identificador al final de la URL.
+
+			La sección a la que vinculas se mostrará en la parte superior del navegador
+			El texto de inicio se mostrará en la parte superior del navegador o lo más superior que se pueda si no hay mucho contenido por debajo.
+
+			Si no quieres que el texto esté en la parte superior de la ventana del navegador, puedes crear un espacio agregando las etiquetascon espacios
+			en blanco en el texto de destino. En HTML un espacio se crea con &nbsp;. Cada conjunto de etiquetas que agregas antes del texto, crea un salto
+			de línea adicional. Ve las imágenes más abajo como referencia.
+		</p>
+		<p>
+			Resolución de problemas
+			Si un enlace ancla no funciona, verifica lo siguiente:
+
+			Asegúrate de haber agregado un slug de página como se describe en el Paso 2, incluyendo los dos símbolos /. Esto es de suma importancia para los enlaces de navegación, enlaces de otras páginas y en Internet Explorer.
+			Asegúrate de que el identificador único sea exactamente el mismo en el enlace y el texto de inicio. Si hay alguna diferencia en la ortografía o de capitalización, el enlace no funcionará.
+			Asegúrate de que el texto HTML de inicio esté configurado correctamente. Por ejemplo, si tu identificación única es #bamboo, el enlace que agregarás al texto HTML de inicio es id=“bamboo”
+			Agregaste www. al principio de tu URL si tu dominio principal lo incluye.
+			En estos casos, el enlace ancla no funcionará, incluso si todo se ha configurado correctamente:
+
+			Si usa el dominio integrado de tu sitio y lo pruebas después de haber iniciado sesión. Pruébalo con un navegador en modo incógnito.
+			Si la página ya usa ese ID, intenta usar otro o cambiar el uso de mayúsculas.
+			Nota: Las modificaciones personalizadas del código están fuera del alcance de nuestro soporte. Esto significa que no podemos ayudarte más con la configuración o la solución de problemas. Además, con una solución basada en un código, no podemos garantizar su funcionamiento o la compatibilidad total con Squarespace. Esto incluye cómo funciona con nuestro diseño adaptable, en especial su aspecto en dispositivos móviles y sus funciones en todas las plantillas. El código personalizado también pueden ocasionar problemas de visualización con actualizaciones futuras de nuestra plataforma. Aunque no podemos ayudarte más, hay muchos recursos que te pueden orientar en la dirección correcta:
+			Infórmate sobre las mejores prácticas para agregar código personalizado.
+			Lee nuestra guía general sobre las personalizaciones de terceros.
+			Visita Squarespace Forum, nuestra comunidad de clientes y desarrolladores.
+			Contrata a un Squarespace Expert para ayudar a crear código personalizado para tu sitio.
+			Ajax y enlaces ancla (versión 7.0)
+			En la versión 7.0, Ajax es un método especial para la carga del sitio que hace que las páginas pesadas en contenido sean mucho más rápidas y ágiles. Sin embargo, puede interferir con la funcionalidad de los enlaces ancla, especialmente en dispositivos móviles.
+
+			Si los pasos de solución de problemas anteriores no funcionan y tu plantilla es compatible con Ajax, inhabilítalo temporalmente en Estilos del sitio para ver si eso está causando el problema. Ajax está disponible en estas familias de plantillas:
+
+			Brine
+			Farro
+			Tremont
+			York
+			Enlaces ancla en páginas de índice (versión 7.0)
+			En la versión 7.0, las páginas de índice apiladas tienen una forma alternativa de agregar enlaces ancla que no requieren código. Para obtener más información, visita Cómo agregar enlaces ancla en páginas de índice.
+
+			¿Fue útil este artículo?
+			 
+			Usuarios a los que les pareció útil: 157 de 372
+			Artículos relacionados
+			Añadir Enlaces ancla a la Página de Índice
+			Agregar enlaces al sitio
+			Crear enlaces de texto
+			Duplicar páginas y contenidos
+			Lista de comprobación para SEO
+			Comenzar
+			Cuenta
+			Facturación
+			Analíticas
+			Commerce
+			Dominios
+			Email Marketing
+			Google Workspace y direcciones de correo electrónico personalizadas
+			Imágenes y videos
+			Marketing
+			Áreas para miembros
+			Páginas y contenido
+			Básico
+			Páginas y secciones
+			Páginas en la versión 7.0
+			Bloques
+			Organizar el contenido
+			Eliminar y recuperar contenido
+			Blog
+			Podcasting
+			Formularios
+			Enlaces y archivos
+			Agregar enlaces al sitio
+			Añadir enlaces en la navegación
+			Crear enlaces de texto
+			Crear enlaces de anclaje
+			Solución de problemas de enlaces
+			Cargar y administrar archivos
+			Displaying files on your site
+			Importación y exportación
+			Contraseñas para el contenido
+			Resolver los problemas de contenido
+			SEO
+			Squarespace Scheduling
+			Diseño
+			Plantillas
+			Consejos y asesoramiento
+			Integraciones y extensiones
+			Squarespace en dispositivos móviles
+			Privacidad y seguridad
+			Problemas técnicos y Contacto
+			Foro de la comunidad
+			Obtén ayuda de nuestra comunidad sobre personalizaciones avanzadas.
+
+			Explorar el foro
+			Seminario web
+			Regístrate en una sesión interactiva en la que nuestros expertos te guiarán a través de los principios básicos de Squarespace.
+
+			Únete a un seminario web
+			¿No encuentras lo que buscas?
+			Te ayudaremos a encontrar respuestas o te pondremos en contacto con un asesor.
+
+			CONTÁCTANOS
+			ESPAÑOL↓
+			SOPORTE
+			CONTÁCTANOS
+			ESTADO DEL SERVICIO
+			@SQUARESPACEHELP
+			SQUARESPACE 5
+			COMUNIDAD
+			FORO
+			CONTRATA A UN EXPERTO
+			SEMINARIOS WEB
+			BLOG
+			DESARROLLADORES
+			DOCUMENTOS DE API
+			CIRCLE
+			PLATAFORMA PARA DESARROLLADORES
+			ENTERPRISE
+			RECURSOS
+			PLANTILLAS WEB
+			DISEÑO WEB
+			DOMINIOS DE SQUARESPACE
+			TIENDAS ONLINE
+			MARKETING DE SITIO WEB
+			CONDICIONES DE USO
+			POLÍTICA DE PRIVACIDAD
+		</p>
+		<a id="fin"></a>
+	</div>		
+	</body>
+</html>

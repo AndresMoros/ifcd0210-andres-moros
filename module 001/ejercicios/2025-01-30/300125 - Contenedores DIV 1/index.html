@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contenedores DIV I</title>
+  </head>
+  <style>
+    div {
+      border: 1px solid;
+      margin: 5px;
+      text-align: center;
+    }
+    .black-container {
+      margin: 5px auto 5px;
+      width: 300px;
+    }
+    .red-container {
+      border-color: red;
+    }
+    .blue-container {
+      border-color: blue;
+    }
+    .yellow-container {
+      border-color: yellow;
+    }
+    .green-container {
+      border-color: green;
+    }
+  </style>
+  <body>
+    <div class="black-container">
+      <div class="red-container">
+        <h1>División A</h1>
+      </div>
+      <div class="blue-container">
+        <div class="yellow-container">
+          <h1>División B1</h1>
+        </div>
+        <div class="green-container">
+          <h1>División B2</h1>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

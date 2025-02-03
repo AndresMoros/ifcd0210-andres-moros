@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Listas II</title>
+    <style>
+      body {
+        width: 600px;
+        margin: 0 auto;
+        font-family: "Cascadia Code", Arial, Helvetica, sans-serif;
+      }
+      article {
+        margin-top: 3rem;
+      }
+      .comic-sans-box {
+        font-family: "Comic Sans Ms", Arial, Helvetica, sans-serif !important;
+      }
+      .blue-text {
+        color: blue;
+      }
+      .blue-text li {
+        color: black !important;
+      }
+      .blue-text ul {
+        list-style-type: disc;
+      }
+      .gray-text {
+        padding: 1rem;
+        font-family: monospace;
+        background: #ddd;
+      }
+      .gray-text dt {
+        margin-top: 1rem;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Ejercicio 1 -->
+    <article class="comic-sans-box">
+      <p style="font-family: 'Cascadia Code', Arial, Helvetica, sans-serif">
+        <strong>Ejercicio 1</strong>
+      </p>
+      <hr />
+      <h2>Menú Infantil</h2>
+      <ol>
+        <li class="blue-text">
+          Plato combinado
+          <ul>
+            <li>Macarrones a la Boloñesa</li>
+            <li>Arroz con huevo y tomate</li>
+            <li>Tiras de pollo empanadas</li>
+            <li>Hamburguesa con patatas</li>
+          </ul>
+        </li>
+        <li class="blue-text">
+          Postres
+          <ul>
+            <li>Helado</li>
+            <li>Flan</li>
+            <li>Yogur</li>
+          </ul>
+        </li>
+        <li class="blue-text">
+          Bebidas
+          <ul>
+            <li>Agua mineral</li>
+            <li>Refrescos</li>
+          </ul>
+        </li>
+      </ol>
+    </article>
+    <!-- Ejercicio 2 -->
+    <article class="">
+      <p style="font-family: 'Cascadia Code', Arial, Helvetica, sans-serif">
+        <strong>Ejercicio 2</strong>
+      </p>
+      <hr />
+      <h2>Lista definición</h2>
+      <div class="gray-text">
+        <p>Lista de glosario</p>
+        <dl>
+          <dt>Hipertexto</dt>
+          <dd>
+            Se llama documento hipertexto a aquel que tiene zonas activas donde
+            el usuario puede pulsar con el ratón para acceder a otro documento.
+            Estas zonas pueden ser imágenes o texto
+          </dd>
+          <dt>Ancho de banda de una red</dt>
+          <dd>
+            Es, en pocas palabras, la capacidad de transmisión que soporta y
+            está muy relacionada con la velocidad de transmisión que puede se
+            alcanzar.
+          </dd>
+          <dt>HTML</dt>
+          <dd>
+            HiperText Markup Language, Lenguaje de marcas hipertexto. Lenguaje
+            para diseñar páginas del World Wide Web
+          </dd>
+        </dl>
+      </div>
+    </article>
+    <!-- Ejercicio 3 -->
+    <article class="">
+        <p style="font-family: 'Cascadia Code', Arial, Helvetica, sans-serif">
+          <strong>Ejercicio 3</strong>
+        </p>
+        <hr />
+        <h2>Lista anidada</h2>
+        <ol>
+            <li>HTTP es simple</li>
+            <li>Solicitudes entre cliente y servidor
+                <dl>
+                    <dt>Paso 1</dt>
+                    <dd>El cliente manda una petición</dd>
+                    <dt>Paso 2</dt>
+                    <dd>El servidor devuelve una respuesta</dd>
+                </dl>
+            </li>
+            <li>¿Qué es HTML?
+                <ul>
+                    <li>Es un lenguaje de marcas</li>
+                    <li>Se usa para la elaboración</li>
+                    <li>Es un estándar reconocido mundialmente
+                        <ul>
+                            <li>Sus normas vienen dadas por el World Wide Web Consortium o W3C</li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+        </ol>
+      </article>
+  </body>
+</html>
