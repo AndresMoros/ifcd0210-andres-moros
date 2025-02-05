@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Interno</title>
+    <style>
+      .container {
+        border: 5px double #f00;
+        width: 500px;
+        margin-left: 50px;
+        background: #cdcdcd;
+        color: #0000ff;
+      }
+      h1 {
+        font-size: 18pt;
+      }
+      h2 {
+        font-size: 16pt;
+      }
+      .bold {
+        font-weight: bold;
+      }
+      .container > * {
+        padding: 20px;
+      }
+      .container p {
+        font-family: "Arial", Cambria, Cochin, sans-serif;
+        text-align: justify;
+      }
+      .container p::first-line {
+        text-decoration: line-through;
+      }
+      .container p a:link {
+        text-decoration: none;
+        color: #f00;
+      }
+      .container p a:hover {
+        color: #ff7e7e;
+      }
+      .container p a:active {
+        color: #28f844;
+        background: #2836f8;
+      }
+      .container p a:visited {
+        color: #e100ff;
+      }
+      .container p a:focus {
+        color: #00ffc8;
+        border: 3px solid red;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>CSS</h1>
+      <h2>Hoja de Estilos en Cascada</h2>
+      <p>
+        <span class="bold">CSS</span> (siglas en inglés de Cascading Style
+        Sheets), en español «Hojas de estilo en cascada», es un lenguaje
+        dediseño gráfico para definir y crear la presentación de un documento
+        estructurado escrito en un lenguaje demarcado. Es muy usado para
+        establecer el diseño visual de los documentos web, e interfaces de
+        usuarioescritas en HTML o XHTML; el lenguaje puede ser aplicado a
+        cualquier documento XML, incluyendo XHTML,SVG, XUL, RSS, etcétera. Te
+        puede ayudar a crear tu propio sitio web. Junto con HTML y <a href="https://lenguajejs.com/javascript/" target="_blank">JavaScript</a>,
+        CSS esuna tecnología usada por muchos sitios web para crear páginas
+        visualmente atractivas, interfaces deusuario para aplicaciones web y
+        GUIs para muchas aplicaciones móviles (como Firefox OS).
+      </p>
+      <p>
+        CSS está diseñado principalmente para marcar la separación del contenido
+        del documento y la forma depresentación de este, características tales
+        como las capas, los colores y las fuentes. Esta separación buscamejorar
+        la accesibilidad del documento, proveer más flexibilidad y control en la
+        especificación decaracterísticas presentacionales, permitir que varios
+        documentos HTML compartan un mismo estilo usandouna sola hoja de estilos
+        separada en un archivo .css, y reducir la complejidad y la repetición de
+        código en laestructura del documento.
+      </p>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: justify;
+}
+section {
+    font-family: 'Cascadia Code', Fira Code, monospace;
+}
+/* Estilos para el título */
+h1 {
+    color: #10a54e;
+    text-align: center;
+}
+/* Para los diferentes elementos */
+.blue-color {
+    color: blue;
+    font-weight: bold;
+}
+.red-color {
+    color: red;
+}
+.underline {
+    text-decoration: underline;
+}
+.times-new-roman {
+    font-family: 'Times New Roman', Times, serif;
+}
+.bold {
+    font-weight: bold;
+}
+.italic {
+    font-style: italic;
+}
+.ahh-font {
+    font-family: 'Comic Sans', monospace;
+}
+.yellow-bg {
+    background: yellow;
+}
+/* Estilos para elementos únicos */
+#cream-bg {
+    background: rgb(255, 240, 204);
+}

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pseudoclases I</title>
+    <style>
+/* ESTILOS GENERALES */
+      body {
+        max-width: 600px;
+        margin: auto;
+      }
+      .task {
+        font-family: "Cascadia Code", Fira Code, monospace;
+      }
+      .task p b{
+        text-decoration: underline;
+      }
+/* ESTILOS DE EJERCICIO */
+      h1 {
+        border: 2px solid transparent;
+        transition: .3s;
+      }
+      h1:hover {
+        background: #8E4585;
+        border:2px solid;
+      }
+      .thing a:link {
+        color: #f00;
+        text-decoration: none;
+      }
+      .thing a:hover {
+        color: #fff;
+        background: #f00;
+        text-decoration: underline;
+      }
+      .thing a:active {
+        background: #ffa500;
+        text-decoration: none;
+      }
+      .thing a:visited {
+        background: none;
+        color: #008000;
+        text-decoration: none;
+      }
+      .thing a:focus {
+        color: #00f;
+        background: none;
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+  <body>
+    <section class="task">
+      <p><b>Ejercicio Pseudoclases I</b></p>
+      <p>Crea la página Web que se muestra a continuación.</p>
+      <p>
+        Ejercicio Pseudoclases 1. Crea la página Web que se muestra a continuación. Cuando esté, escribe las reglas CSS necesarias para lograr
+        que tenga el siguiente funcionamiento:
+      </p>
+      <ul>
+        <li>
+          Al pasar por el título, éste aparecerá con un borde simple de un píxel
+          de ancho y con su fondo en color ciruela.
+        </li>
+        <li>
+          En su estado normal, un enlace se muestra de color rojo y sin
+          subrayado
+        </li>
+        <li>
+          Cuando el usuario sitúa el cursor del ratón sobre un enlace, se
+          invierten los colores (el texto del enlace se muestra con color blanco
+          sobre un fondo rojo) y se muestra el subrayado.
+        </li>
+        <li>
+          Cuando un enlace está activo, se muestra de color naranja y sin
+          subrayado.
+        </li>
+        <li>
+          Cuando un enlace ha sido visitado, se muestra de color verde oscuro y
+          sin subrayado.
+        </li>
+        <li>
+          Cuando un enlace tiene el foco del teclado, se muestra de color azul y
+          se muestra el subrayado
+        </li>
+      </ul>
+      <p>
+        <b>Importante:</b>
+        para que el estado de enlace visitado funcione, las
+        páginas de los enlaces deben existir para que se produzca el cambio
+        de estado. Para ello crea las páginas de destino con el título de los
+        enlaces como único contenido.
+      </p>
+      <p>
+        <b>Consejo:</b>
+        el orden de escritura de las reglas influye en el resultado final, ya
+        que un enlace puede estar en varios estados al mismo tiempo.
+      </p>
+    </section>
+    <section class="thing">
+      <h1>Universidad Complutense</h1>
+      <ul>
+        <li><a href="www.google.com">Presentación</a></li>
+        <li><a href="www.facebook.com">Estudios</a></li>
+        <li><a href="www.instagram.com">Alumnos</a></li>
+        <li><a href="www.microsoft.com">Deportes</a></li>
+        <li><a href="www.microsoft.com">Servicios</a></li>
+      </ul>
+    </section>
+  </body>
+</html>

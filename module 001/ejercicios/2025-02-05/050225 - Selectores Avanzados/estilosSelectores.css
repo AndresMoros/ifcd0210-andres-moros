@@ -1,0 +1,121 @@
+body {
+  font-family: "Cascadia Code", Fira Code, monospace;
+  max-width: 600px;
+  margin: auto;
+}
+#div1 h1::before {
+  content: "Los ";
+}
+#div1 h1::after {
+  content: " 🍚";
+}
+#div1 p {
+  text-align: justify;
+}
+/* #lista1 :first-child {
+        color: #f00;
+        background: rgb(255, 255, 0);
+    } */
+#lista1 h3 {
+  color: #f00;
+  background: rgb(255, 255, 0);
+}
+div :first-child {
+  color: rgba(0, 81, 255, 0.75);
+  background: rgb(255, 255, 0);
+}
+#div2 p {
+  color: chocolate;
+}
+#lista1 li:first-of-type {
+  color: tomato;
+}
+div p:last-of-type {
+  background: #ffa500;
+}
+div :first-child {
+  text-decoration: underline;
+}
+#div3 :first-child {
+  text-decoration: none;
+}
+#lista1 :last-child {
+  color: #008000;
+}
+div p:last-of-type {
+  font-weight: bold;
+  text-decoration: overline;
+}
+/* #div1 p:last-of-type {
+    text-decoration: underline;
+  } */
+/* #lista1 li:last-of-type {
+    text-transform: uppercase;
+  } */
+#div1 :nth-child(2) {
+  text-decoration: underline;
+}
+#div1 p:nth-of-type(2) {
+  text-decoration: line-through;
+}
+li:nth-of-type(even) {
+  text-transform: lowercase;
+}
+#div2 :nth-child(1) {
+  background: #808080;
+}
+#lista1 :nth-last-child(odd) {
+  font-family: "Comic Sans MS";
+}
+#lista1 li:nth-of-type(3) {
+  color: #ffc0cb;
+}
+div p:nth-of-type(2) {
+  font-size: 20px;
+}
+#div1 *:not(h1) {
+  color: #ffa500;
+}
+#lista1 *:not(.no-italic) {
+  font-style: italic;
+}
+h1 ~ p {
+  text-decoration: line-through !important;
+}
+/* p::selection {
+    color: black !important;
+  }
+  h1::selection,
+  h3::selection {
+    text-shadow: #0f0 10px 30px 5px;
+  } */
+p::selection,
+h1::selection,
+h3::selection {
+  text-shadow: #f00 10px 30px 5px;
+}
+#div2 :first-child {
+  transition: 0.3s;
+  box-shadow: #000 5px 5px;
+}
+#div2 :first-child:hover {
+  box-shadow: #0f0 -5px -5px;
+}
+p[class] {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: blue;
+}
+*[id^="di"] {
+  color: #ffa500 !important;
+}
+p[class*="dos"] {
+  color: green !important;
+}
+*[id*="a"] {
+  color: blue !important;
+}
+p::first-letter {
+  margin-right: 10px;
+  color: #ab2a3e;
+  font-size: 30px;
+}

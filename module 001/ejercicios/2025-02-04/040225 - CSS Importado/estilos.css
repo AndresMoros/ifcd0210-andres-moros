@@ -1,0 +1,17 @@
+.container {
+    background: yellow;
+    color: blue;
+}
+.container h1,
+.container h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h1 {
+    font-size: 18pt;
+}
+h2 {
+    font-size: 16pt;
+}
+container p {
+    font-family: Arial, Helvetica, sans-serif;
+}

@@ -1,0 +1,44 @@
+.container {
+    border: 5px double #f00;
+    width: 500px;
+    margin-left: 50px;
+    background: #cdcdcd;
+    color: #0000ff;
+  }
+  h1 {
+    font-size: 18pt;
+  }
+  h2 {
+    font-size: 16pt;
+  }
+  .bold {
+    font-weight: bold;
+  }
+  .container > * {
+    padding: 20px;
+  }
+  .container p {
+    font-family: "Arial", Cambria, Cochin, sans-serif;
+    text-align: justify;
+  }
+  .container p::first-line {
+    text-decoration: line-through;
+  }
+  .container p a:link {
+    text-decoration: none;
+    color: #f00;
+  }
+  .container p a:hover {
+    color: #ff7e7e;
+  }
+  .container p a:active {
+    color: #28f844;
+    background: #2836f8;
+  }
+  .container p a:visited {
+    color: #e100ff;
+  }
+  .container p a:focus {
+    color: #00ffc8;
+    border: 3px solid red;
+  }

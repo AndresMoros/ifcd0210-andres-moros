@@ -1,0 +1,85 @@
+<html lang="es">
+  <head>
+    <title>Selectores Pseudoclases de Selección.</title>
+    <meta charset="utf-8" />
+    <style>
+		body {
+			max-width: 600px;
+			min-height: 100vh;
+			border-left: 1px solid;
+			border-right: 1px solid;
+			padding: 0 1rem;
+			font-family: 'Cascadia Code', Fira Code, monospace;
+			margin: 0 auto;
+		}
+		#lista :first-child {
+			font-style: italic;
+		}
+		#lista :last-child {
+			text-decoration: line-through;
+		}
+		#lista li:first-of-type {
+			font-weight: bold;
+			text-decoration: underline;
+		}
+		#lista li:last-of-type {
+			text-decoration: line-through;
+		}
+		#division h1:nth-of-type(2) {
+			color: #8E4585;
+		}
+		#lista li:nth-child(2) {
+			font-variant: small-caps;
+		}
+		#lista li:nth-of-type(even) {
+			color: #f00;
+		}
+		#lista li:nth-of-type(odd) {
+			background: #ffa500;
+		}
+		#division > :nth-child(3) {
+			font-size: 20px;
+		}
+		#division :nth-child(odd) {
+			text-decoration: underline;
+		}
+		#lista > :nth-child(odd) {
+			text-decoration: none;
+		}
+		#division p:nth-of-type(2) {
+			font-size: 9pt;
+			font-family: Georgia, 'Times New Roman', Times, serif;
+		}
+		#division h1:first-of-type {
+			background: #ffc0cb;
+		}
+		#lista li:nth-of-type(5) {
+			color: #ffff00;
+			background: #0000ff;
+		}
+		#lista li:nth-of-type(3) {
+			letter-spacing: 20px;
+		}
+	</style>
+  </head>
+  <body>
+    <div id="division">
+      <h1 id="titulo1">Título 1</h1>
+
+      <p id="parrafo1">Párrafo 1.</p>
+
+      <h1 id="titulo2">Título 2</h1>
+
+      <p id="parrafo2">Párrafo 2.</p>
+
+      <ul id="lista">
+        <li>Opción 1</li>
+        <li>Opción 2</li>
+        <li>Opción 3</li>
+        <li>Opción 4</li>
+        <li>Opción 5</li>
+        <li>Opción 6</li>
+      </ul>
+    </div>
+  </body>
+</html>
