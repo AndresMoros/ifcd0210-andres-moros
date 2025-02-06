@@ -33,12 +33,12 @@ div :first-child {
 div p:last-of-type {
   background: #ffa500;
 }
-div :first-child {
+div:not(#div3) :first-child {
   text-decoration: underline;
 }
-#div3 :first-child {
+/* #div3 :first-child {
   text-decoration: none;
-}
+} */
 #lista1 :last-child {
   color: #008000;
 }
@@ -76,7 +76,7 @@ div p:nth-of-type(2) {
 #div1 *:not(h1) {
   color: #ffa500;
 }
-#lista1 *:not(.no-italic) {
+li:not(:nth-child(2)) {
   font-style: italic;
 }
 h1 ~ p {
@@ -92,7 +92,7 @@ h1 ~ p {
 p::selection,
 h1::selection,
 h3::selection {
-  text-shadow: #f00 10px 30px 5px;
+  text-shadow: #ff0000b2 10px 30px 5px;
 }
 #div2 :first-child {
   transition: 0.3s;

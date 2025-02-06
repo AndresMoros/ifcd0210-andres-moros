@@ -1,0 +1,56 @@
+@font-face {
+  src: url(../fuentes/ZCOOLKuaiLe-Regular.ttf);
+  font-family: cool;
+}
+@font-face {
+  src: url(../fuentes/Smooch-Regular.ttf);
+  font-family: smo;
+}
+@font-face {
+  src: url("../fuentes/Creepy Blood.ttf") format("truetype"),
+    url("../fuentes/Creepy Blood.otf") format("opentype");
+  font-family: cb;
+}
+@font-face {
+  font-family: "Fira Code";
+  src: url(../fuentes/Fira_Code/FiraCode-VariableFont_wght.ttf)
+    format("truetype");
+}
+@font-face {
+  font-family: "Rubik 80";
+  src: url(../fuentes/Rubik_80s_Fade/Rubik80sFade-Regular.ttf);
+  /* format('opentype'); */
+}
+#cero {
+  font-family: cool;
+}
+#uno {
+  font-family: "Dancing Script", cursive;
+}
+#dos {
+  font-family: Roboto, sans-serif;
+}
+#tres {
+  font-family: "open sans condensed", sans-serif;
+}
+#cuatro {
+  font-family: "Shadows Into Light", cursive;
+}
+#cinco {
+  font-family: Corinthia, cursive;
+}
+#seis {
+  font-family: smo, cursive;
+}
+#siete {
+  font-family: cb;
+}
+#fira_code {
+  font-family: "Fira Code";
+}
+#source_code_pro {
+  font-family: "Source Code Pro";
+}
+#rubik80 {
+  font-family: "Rubik 80";
+}

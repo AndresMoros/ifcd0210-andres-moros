@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Unidades Medida</title>
+    <meta charset="utf-8" />
+    <style>
+		body {
+			font-family: 'Cascadia Code', Fira Code, monospace;
+			max-width: 600px;
+			margin: auto;
+		}
+		div {
+			margin-top: 1rem;
+			padding-right: 1rem;
+		}
+		/* ESTILOS PARA EL PRIMER DIV */
+		#div1 {
+			font-size: 16px;
+			border: 2px solid #a30000;
+		}
+		#div1 * {
+			border: 2px solid #ff2525;
+		}
+		#div1 h3 {
+			padding-left: 1.7em;
+			margin-left: 1.7em;
+		}
+		#primeroEM {
+			font-size: 1em;
+			padding-left: 2em;
+			margin-left: 2em;
+		}
+		#segundoEM {
+			font-size: 2em;
+			padding-left: 1em;
+			margin-left: 1em;
+		}
+		#terceroEM {
+			font-size: .5em;
+			padding-left: 4em;
+			margin-left: 4em;
+		}
+		/* ESTILOS PARA EL SEGUNDO DIV */
+		#div2 {
+			font-size: 32px;
+			border: 2px solid #000000;
+		}
+		#div2 * {
+			border: 2px solid #3d3d3d;
+		}
+		#div2 h3 {
+			padding-left: .4em;
+			margin-left: .4em;
+		}
+		#primeroPT {
+			font-size: 16px;
+			padding-left: 12pt;
+			margin-left: 12pt;
+		}
+		#segundoPT {
+			font-size: 32px;
+			padding-left: 12pt;
+			margin-left: 12pt;
+		}
+		#terceroPT {
+			font-size: 8px;
+			padding-left: 12pt;
+			margin-left: 12pt;
+		}
+	</style>
+  </head>
+
+  <body>
+    <div id="div1">
+      <h3>Medidas en EM</h3>
+
+      <p id="primeroEM">Este párrafo tiene un tamaño de fuente de 16px</p>
+
+      <p id="segundoEM">
+        Este párrafo tiene un tamaño de fuente el doble de grande pero se desea
+        que el margen lateral izquierdo sea el mismo que en el párrafo superior.
+        ¿Cuántos em deberían valer margin-left y padding-left?
+      </p>
+
+      <p id="terceroEM">
+        Este párrafo tiene un tamaño de fuente la mitad de grande que el de las
+        fuentes del primer párrafo. Si se quiere que el margen lateral izquierdo
+        sea el mismo que el que tiene el párrafo primero. ¿Cuántos em deberían
+        valer margin-left y padding-left?
+      </p>
+    </div>
+    <div id="div2">
+      <h3>Medidas en Puntos</h3>
+
+      <p id="primeroPT">Este párrafo tiene un tamaño de fuente de 16px</p>
+
+      <p id="segundoPT">
+        Este párrafo tiene un tamaño de fuente el doble de grande pero se desea
+        que el margen lateral izquierdo sea el mismo que en el párrafo superior.
+        ¿Cuántos puntos deberían valer margin-left y padding-left?
+      </p>
+
+      <p id="terceroPT">
+        Este párrafo tiene un tamaño de fuente la mitad de grande que el de las
+        fuentes del primer párrafo. Si se quiere que el margen lateral izquierdo
+        sea el mismo que el que tiene el párrafo primero. ¿Cuántos puntos
+        deberían valer margin-left y padding-left?
+      </p>
+    </div>
+  </body>
+</html>
