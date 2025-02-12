@@ -1,0 +1,24 @@
+.phones {
+    border-collapse: collapse;
+    font-family: 'Calibri', Verdana, sans-serif;
+    text-align: center;
+    margin: auto;
+}
+.phones td,
+.phones th {
+    border: 1px solid grey;
+}
+.phones th,
+.phones tfoot {
+    font-size: 20px;
+    font-weight: bold;
+    background: #000;
+    color: #fff;
+}
+.phones tbody {
+    background: #ffbb00;
+}
+.phones img {
+    width: 130px;
+    height: 190px;
+}

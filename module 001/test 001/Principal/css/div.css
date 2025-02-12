@@ -1,0 +1,6 @@
+div {
+    margin: auto;
+    border: 5px double #ab2a3e;
+    width: 40vw;
+    min-width: max-content;
+}

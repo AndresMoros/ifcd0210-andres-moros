@@ -1,0 +1,26 @@
+p {
+    text-align: center;
+}
+a {
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Calibri', Verdana, sans-serif;
+}
+a:hover {
+    color: #000;
+}
+a[class="red"] {
+    background: #f00;
+}
+a[class="green"] {
+    background: #7edf7e;
+}
+a[class="orange"] {
+    background: #ff774a;
+}
+a[class="brown"] {
+    background: #ac4343;
+}
+a[class="blue"] {
+    background: #47c0e9;
+}
