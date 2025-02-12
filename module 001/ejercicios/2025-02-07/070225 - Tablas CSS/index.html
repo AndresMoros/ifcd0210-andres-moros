@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ejercicios Tablas</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+      html {
+        font-family: "Cascadia Code", Fira Code, monospace;
+      }
+      body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        min-height: 100vh;
+        /* max-width: 600px; */
+        /* margin: auto; */
+      }
+      table {
+        border-collapse: collapse;
+        /* border-spacing: 0; */
+        border: 1px solid;
+        text-align: center;
+        font-family: "Helvetica", sans-serif;
+        caption-side: bottom;
+        margin: 3rem auto;
+      }
+      thead {
+        font-size: 18px;
+      }
+      thead th {
+        padding: 1rem;
+        background: #000000;
+        color: #fff;
+      }
+      th,
+      td {
+        height: 50px;
+        width: 120px;
+        border: 1px solid;
+      }
+      tbody tr:nth-child(even) {
+        background: #eee;
+      }
+      tbody tr:nth-child(odd) {
+        background: #bbb;
+      }
+      iframe {
+        width: 100%;
+        height: 800px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- <section>
+      <h1>Ejercicios Tablas.</h1>
+      <p>
+        Crear la tabla que se incluye en este ejercicio siguiendo las siguientes
+        instrucciones:
+      </p>
+      <ul>
+        <li>El contenido está centrado vertical y horizontalmente.</li>
+        <li>
+          Aplica los colores de relleno que quieras, no tienen por qué ser los
+          de la imagen, pero que sigan el mismo patrón.
+        </li>
+        <li>Utiliza un tipo de fuente sans serif en lugar de la mostrada.</li>
+        <li>
+          Aumenta el tamaño de los títulos de la cabecera a los 18 pixeles.
+        </li>
+        <li>
+          Los bordes de las celdas y el de la tabla deben estar fusionados en
+          uno solo.
+        </li>
+        <li>Para el borde aplica uno solido negro de 1 pixel de ancho.</li>
+        <li>
+          Incluir una leyenda centrada debajo de la tabla con el siguiente
+          contenido: “Datos de los empleados”.
+        </li>
+      </ul>
+      <hr>
+    </section> -->
+    <section>
+      <table>
+        <caption>
+          Datos de los empleados
+        </caption>
+        <thead>
+          <tr>
+            <th>Nombres</th>
+            <th>Edad</th>
+            <th>Trabaja</th>
+            <th>Localidad</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Andrés</td>
+            <td>21</td>
+            <td>No</td>
+            <td>Móstoles</td>
+          </tr>
+          <tr>
+            <td>Anais</td>
+            <td>23</td>
+            <td><input type="text"></td>
+            <td>Sol</td>
+          </tr>
+          <tr>
+            <td>Xofia</td>
+            <td>25</td>
+            <td>Sí</td>
+            <td>Tarragona</td>
+          </tr>
+          <tr>
+            <td>Angel</td>
+            <td>41</td>
+            <td>Sí</td>
+            <td>Móstoles</td>
+          </tr>
+          <tr>
+            <td>Anthony</td>
+            <td>31</td>
+            <td>No</td>
+            <td>Lavapies</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+    <!-- <iframe src="070225 Tablas CSS.pdf" frameborder="2"></iframe> -->
+  </body>
+</html>

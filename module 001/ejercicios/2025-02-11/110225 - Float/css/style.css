@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  width: 50%;
+  min-width: 500px;
+  margin: auto;
+  font-family: Calibri, Helvetica, sans-serif;
+}
+.izquierda {
+  width: 20%;
+  float: left;
+}
+.izquierda img {
+  width: 100%;
+  height: auto;
+}
+.derecha {
+  width: 80%;
+  float: right;
+  border: 1px solid;
+}
+nav {
+  border-top: 1px solid;
+}
+ul {
+  list-style: none;
+}
+ul li {
+  padding-bottom: 2em;
+}
+a {
+  color: #000;
+  text-decoration: none;
+}
+a:hover {
+  color: maroon;
+}
+.contenedor {
+  border: 1px solid;
+}
+p {
+  color: #888;
+  text-align: justify;
+}
+p,
+h1 {
+  padding: 0 20px;
+}
