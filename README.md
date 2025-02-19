@@ -30,10 +30,16 @@ Esta es una lista de los recursos y herramientas que he usado personalmente para
 - [MDN Web Docs](https://developer.mozilla.org)
 - [Responsive Web Design - freeCodeCamp](https://www.freecodecamp.org/learn/2022/responsive-web-design/)
 - [Aprende HTML ahora! curso completo GRATIS desde cero - HolaMundo](https://youtu.be/MJkdaVFHrto?si=adOk4LOg4MDMMVFh)
-- [Aprende CSS ahora! curso completo GRATIS desde cero](https://www.youtube.com/watch?v=wZniZEbPAzk)
+- [Aprende CSS ahora! curso completo GRATIS desde cero - HolaMundo](https://www.youtube.com/watch?v=wZniZEbPAzk)
 - [Flexbox Froggy](https://flexboxfroggy.com/)
 - [Grid Garden](https://cssgridgarden.com/)
+- [CondinGame](https://www.codingame.com/)
 - [Eloquent JavaScript ES - Traducción por Midudev](https://www.eloquentjavascript.es/)
+- [Cómo utilizar la Interpolación de Cadenas en JavaScript - freeCodeCamp](https://www.freecodecamp.org/espanol/news/como-utilizar-la-interpolacion-de-cadenas-en-javascript/)
+- [map, reduce y filter de JavaScript: Funciones de arreglo JS explicadas con ejemplos de código - freeCodeCamp](https://www.freecodecamp.org/espanol/news/map-reduce-y-filter-de-javascript-funciones-de-arreglo-js-explicadas-con-ejemplos-de-codigo/)
+- [Programación funcional en JavaScript: Explicado - freeCodeCamp](https://www.freecodecamp.org/espanol/news/programacion-funcional-en-javascript-explicado/)
+
+**Nota:** Algunos de los recursos no poseen una traducción _oficial_ al español
 ### Herramientas
 
 - [ChatGPT](https://chatgpt.com/)
