@@ -35,9 +35,14 @@ Esta es una lista de los recursos y herramientas que he usado personalmente para
 - [Grid Garden](https://cssgridgarden.com/)
 - [CondinGame](https://www.codingame.com/)
 - [Eloquent JavaScript ES - Traducción por Midudev](https://www.eloquentjavascript.es/)
+### Fuentes para temas puntuales
+
 - [Cómo utilizar la Interpolación de Cadenas en JavaScript - freeCodeCamp](https://www.freecodecamp.org/espanol/news/como-utilizar-la-interpolacion-de-cadenas-en-javascript/)
 - [map, reduce y filter de JavaScript: Funciones de arreglo JS explicadas con ejemplos de código - freeCodeCamp](https://www.freecodecamp.org/espanol/news/map-reduce-y-filter-de-javascript-funciones-de-arreglo-js-explicadas-con-ejemplos-de-codigo/)
 - [Programación funcional en JavaScript: Explicado - freeCodeCamp](https://www.freecodecamp.org/espanol/news/programacion-funcional-en-javascript-explicado/)
+- [Trabajando con objetos  en JavaScript - MDN Web Docs (ES)](https://developer.mozilla.org/es/docs/Web/JavaScript/Guide/Working_with_objects)
+- [25 métodos de Arrays en JavaScript que todo desarrollador debe conocer - dev.to](https://dev.to/gastondanielsen/25-metodos-de-arrays-en-javascript-que-todo-desarrollador-debe-conocer-4a2d)
+- [JavaScript: Array Methods - W3Schools](https://www.w3schools.com/js/js_array_methods.asp)
 
 **Nota:** Algunos de los recursos no poseen una traducción _oficial_ al español
 ### Herramientas
