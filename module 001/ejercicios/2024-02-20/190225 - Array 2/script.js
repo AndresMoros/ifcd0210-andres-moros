@@ -2,10 +2,10 @@
 // • Crear un Array e introducir 3 números en él.
 // • Mostrar por pantalla los 3 números introducidos.
 // • Mostrar por pantalla los 3 números multiplicados.
+document.write(`<h1>Ejercicio 1</h1>`);
 
 const arr0 = [2, 9, 32];
 
-document.write(`<h1>Ejercicio 1</h1>`);
 document.write(`Los números son ${arr0}`);
 document.write(`<br>`);
 document.write(
@@ -19,7 +19,7 @@ document.write(`<hr>`);
 //      o Si hay 2 iguales y son los mayores, mostrar su valor.
 //      o Si los 3 son iguales indicarlo también.
 
-document.write(`<h1>Ejercicio 1</h1>`);
+document.write(`<h1>Ejercicio 2</h1>`);
 document.write(`Los números son ${arr0}`);
 document.write(`<br>`);
 if (arr0[0] > arr0[1] && arr0[0] > arr0[2]) {
@@ -39,7 +39,7 @@ document.write(`<br>`);
 document.write(`<hr>`);
 
 // Ejercicio 3.
-// • Crear un Array e introducir en él por teclado los nombres de los continentes.
+// • Crear un Array e introducir en él los nombres de los continentes.
 // • Crear otro Array con 5 números.
 // • Copiar ambos Arrays en otros 2 nuevos.
 // • Concatena ambos Arrays copia en un array nuevo y utiliza este último a partir de ahora.
@@ -48,6 +48,7 @@ document.write(`<hr>`);
 // • Añadir la Antártida al final del Array.
 // • ¿Cuántos elementos tiene este array?
 // • Mostrar todos los elementos de Array usando un bucle for.
+document.write(`<h1>Ejercicio 3</h1>`);
 
 const CONTINENTS = new Array(5);
 const sites = ['América','Africa', 'Asia', 'Europa', 'Océania']
@@ -58,7 +59,20 @@ for(let i = 0; i < CONTINENTS.length; i++){
 let continentes = CONTINENTS.slice()
 let numeros = NUMS.slice()
 
-let definitivo = continentes.concat(numeros).sort();
+let contsAndNumbers = continentes.concat(numeros).sort();
+
+document.write([...contsAndNumbers].join(', '))
+document.write(`<br>`);
+document.write(contsAndNumbers.includes('Europa') ? 'El array contiene Europa' : 'El array NO contiene Europa');
+// document.write(contsAndNumbers.indexOf('Europa') ? 'El array contiene Europa' : 'El array NO contiene Europa');
+contsAndNumbers.push('Antártida');
+document.write(`<br>`);
+document.write(`El array ahora tiene ${contsAndNumbers.length} elementos`)
+document.write(`<br>`);
+for(el of contsAndNumbers){
+  document.write(el + '<br>')
+}
+document.write(`<hr>`);
 
 // Ejercicio 4.
 // • Crea los Arrays A, B y C vacíos, pero con el mismo tamaño.
@@ -68,14 +82,15 @@ let definitivo = continentes.concat(numeros).sort();
 // sucesivamente, usando también en este caso otro bucle.
 // • Muestra el contenido de cada Array en una línea.
 
+document.write(`<h1>Ejercicio 4</h1>`);
 let a = new Array(5);
 let b = new Array(5);
 let c = new Array(5);
 
-for (let i = 0; i < a.length; i++) {
-  a[i] = parseInt(prompt('Introduce un número para el array "a"', ""));
-  b[i] = parseInt(prompt('Introduce un número para el array "b"', ""));
-}
+// for (let i = 0; i < a.length; i++) {
+//   a[i] = parseInt(prompt('Introduce un número para el array "a"', ""));
+//   b[i] = parseInt(prompt('Introduce un número para el array "b"', ""));
+// }
 
 for (let i = 0; i < c.length; i++) {
   c[i] = a[i] + [...b].reverse()[i];
@@ -95,3 +110,4 @@ document.write(`<br>`);
 document.write(b);
 document.write(`<br>`);
 document.write(c);
+document.write(`<hr>`);
