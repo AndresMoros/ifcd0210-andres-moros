@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Expresiones Regulares V</title>
+  </head>
+  <body>
+    <script src="script.js"></script>
+    <h2>Ejercicio 3</h2>
+    <p id="paragraph" style="color: red">
+      ¡Abracadabra, patas de cabra! Ojos de sapo, patas de rana, ¡que tengas
+      suerte toda la semana! Alas de murciélago, cola de lombriz, ¡que hoy y
+      siempre seas muy feliz! Hilos de araña, escamas de dragón, ¡que nunca
+      nadie hiera tu corazón! Cola de culebra, patas de chucho, ¡que siempre
+      todos te quieran mucho! Conjuro: Sapo, sapito, que este año me vaya
+      mejorcito; Caldero, calderito, que me abunde el dinerito. ¡Con este
+      conjuro todo has de lograr, y de tu Suerte nunca has de dudar...!
+    </p>
+    <script>
+      // Ejercicio 3.
+      // • Crea una página Web que tenga el siguiente párrafo:
+      //     - “¡Abracadabra, patas de cabra! Ojos de sapo, patas de rana, ¡que tengas suerte toda la semana! Alas de murciélago, cola de lombriz, ¡que hoy y siempre seas muy feliz! Hilos de araña, escamas de dragón, ¡que nunca nadie hiera tu corazón! Cola de culebra, patas de chucho, ¡que siempre todos te quieran mucho! Conjuro: Sapo, sapito, que este año me vaya mejorcito; Caldero, calderito, que me abunde el dinerito. ¡Con este conjuro todo has de lograr, y de tu Suerte nunca has de dudar...!”
+      // • Aplica al texto el color rojo usando una regla CSS.
+      // • Identifica el párrafo con un atributo ID.
+      // • Accede al contenido del párrafo y cárgalo en una variable.
+      // • Crea un patrón para buscar letras “a” en el párrafo (tanto mayúsculas como minúsculas,
+      // como con tilde o sin ella.).
+      // • Guárdalas todas en un array.
+      // • ¿Cuántas letras “a” hay en total?
+      // • Muéstralas todas por pantalla.
+
+
+      const paragraph = document.getElementById("paragraph").innerText;
+
+      document.write(`
+      <p>El contenido del párrafo</p>
+      <p>${paragraph}</p>
+      `)
+      document.write(`
+      <p>La cantidad de letras "a" que hay son ${paragraph.match(/[a|á]/gi).length}</p>
+      `)
+      for(let i = 0; i < paragraph.match(/\wa|á\w/gi).length;i++){
+        document.write(`
+        <p>La coincidencia número ${i +1} es ${paragraph.match(/\wa|á\w/gi)[i]}</p>
+        `)
+      }
+    </script>
+  </body>
+</html>
