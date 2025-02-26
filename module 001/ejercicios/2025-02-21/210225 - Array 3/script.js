@@ -8,7 +8,7 @@
 // o el nombre de los socios ordenados por orden alfabético.
 // o el nombre de los socios en orden inverso al introducido
 
-let partners = new Array(6)
+let partners = new Array('Cola', 'Andres', 'Anais', 'Sergio', 'Pespsi')
 // for(let i = 0; i < partners.length; i++){
 //     partners[i] = prompt('Nombre del socio');
 // }

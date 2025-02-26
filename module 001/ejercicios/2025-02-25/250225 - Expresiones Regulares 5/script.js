@@ -7,7 +7,7 @@
 // • Mostrar por pantalla el contenido del array utilizando un bucle for.
 document.write('<h2>Ejercicio 1</h2>')
 
-const RegExp_1 = /[A-Za-z][aeiou][A-Za-z]/g
+const RegExp_1 = /[^aáeéiíoóuú\s][aáeéiíoóuú][^aáeéiíoóuú\s]/g
 
 const phrase1 = `En un lugar de La Mancha, de cuyo nombre no quiero acordarme`;
 document.write(phrase1)
