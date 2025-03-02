@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registro</title>
+    <link rel="stylesheet" href="../css/registro.css" />
+  </head>
+  <body>
+    <div>
+      <h3>Datos del Usuario / Cliente</h3>
+      <form>
+        <fieldset>
+          <input
+            type="text"
+            id="login"
+            name="login"
+            maxlength="50"
+            required
+            placeholder="Usuario / Login:"
+          />
+
+          <input
+            type="password"
+            id="password"
+            name="password"
+            minlength="8"
+            required
+            placeholder="Contraseña:"
+          />
+
+          <input
+            type="password"
+            id="password_confirm"
+            name="password_confirm"
+            minlength="8"
+            required
+            placeholder="Confirmar contraseña"
+          />
+        </fieldset>
+
+        <fieldset class="personal-data">
+          <input
+            type="text"
+            id="dni"
+            name="dni"
+            pattern="[0-9]{8}[A-Z]"
+            required
+            placeholder="NIF / DNI:"
+          />
+          <input
+            type="text"
+            id="nombre"
+            name="nombre"
+            maxlength="50"
+            required
+            placeholder="Nombre:"
+          />
+
+          <input
+            type="text"
+            id="apellidos"
+            name="apellidos"
+            maxlength="50"
+            required
+            placeholder="Apellidos: "
+          />
+
+          <input
+            type="text"
+            id="cp"
+            name="cp"
+            pattern="[0-9]{5}"
+            required
+            placeholder="Código Postal:"
+          />
+
+          <input
+            type="text"
+            id="ciudad"
+            name="ciudad"
+            required
+            placeholder="Ciudad"
+          />
+
+          <input
+            type="text"
+            id="calle"
+            name="calle"
+            required
+            placeholder="Calle"
+          />
+
+          <input
+            type="text"
+            id="numero"
+            name="numero"
+            pattern="[0-9]{1,3}"
+            required
+            placeholder="Número"
+          />
+
+          <input
+            type="tel"
+            id="telefono"
+            name="telefono"
+            pattern="[0-9]{9}"
+            required
+            placeholder="Teléfono:"
+          />
+
+          <input
+            type="email"
+            id="email"
+            name="email"
+            maxlength="40"
+            required
+            placeholder="Correo electrónico:"
+          />
+        </fieldset>
+
+        <fieldset>
+          <a href="../index.html" class="back">Atrás</a>
+          <a href="#" class="continue">Continuar</a>
+        </fieldset>
+      </form>
+    </div>
+  </body>
+</html>

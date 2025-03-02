@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+    font-family: monospace;
+}
+
+body {
+    width: 600px;
+}
+
+form, h2 {
+    border: 5px double navy;
+    padding: 1rem;
+}
+textarea {
+    resize: none;
+    width: 100%;
+}
+legend {
+    font-weight: bold;
+}
+.check-radio input {
+    display: inline-block;
+}
+
+#ship-info label {
+    display: inline-block;
+    width: 200px;
+    padding-bottom: 1rem;
+}
+select,
+input[type="submit"] {
+    border-radius: 0;
+    border: 1px solid #aaa;
+}
+select {
+    float: left;
+}
+input[type="submit"] {
+    float: right;
+}

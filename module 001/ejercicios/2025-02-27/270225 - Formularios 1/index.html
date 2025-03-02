@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formularios I</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- 
+    Ejercicio Formulario 1
+    Crea una página web que contenga un formulario con el siguiente contenido:
+    • Como título antes del formulario debe figurar con etiquetas h1 el texto “Inscripción en el concurso Saber y Ganar”.
+    • El formulario debe contener los siguientes controles:
+        o Nombre.
+        o Apellidos.
+        o Email.
+        o Teléfono.
+        o Un botón de envío que muestre el texto “¡¡¡Me apunto!!!” y un botón anulación para restablecer que muestre el texto "Cancelar".
+        o Especifica un id para el formulario.
+        o Todos los campos de texto deben ser obligatorios y tener respectivamente las siguientes anchuras: 55, 55, 40 y 10.
+        o En el campo “Email” que aparezca el siguiente texto escrito: “Escriba aquí su correo electrónico”, como sugerencia de contenido del campo.
+        o Especifica las etiquetas de los campos usando las 2 formas de empleo de <label>.
+        • Opcional:
+            o Se puede incluir el formulario en una división que tenga un tamaño, alineación, bordes o el fondo del color que se quiera.
+    -->
+    <h1>Inscripción en el concurso Saber y Ganar</h1>
+    <form action="#" method="post" name="">
+      <label for="name">Nombre:
+        <input type="text" id="name" maxlength="55" required/>
+      </label>
+      <label for="lastName">Apellidos:
+        <input type="text" id="lastName" maxlength="55" required>
+      </label>
+      <label for="email">Correo electrónico:
+        <input type="email" id="email" maxlength="40" placeholder="Escribi tu correo pe" required>
+      </label>
+      <label for="phoneNumber">Teléfono:
+        <input type="tel" maxlength="10">
+      </label>
+      <hr>
+      <input type="submit" value="¡Me apunto!">
+      <input type="reset" value="Cancelar">
+    </form>
+  </body>
+</html>

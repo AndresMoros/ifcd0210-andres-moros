@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios II</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <!-- 
+Realiza el formulario que aparece a continuación teniendo en cuenta lo siguiente:
+• En el menú desplegable “Pago”, deben aparecer las siguientes formas de pago: Efectivo,
+Tarjeta y Bizum.
+• Con CSS, incluye un borde doble de color azul marino (navy), tanto para el título, como
+para el formulario. Aplícales, además, unos márgenes externos e internos, y modifica su
+anchura para que aparezcan de forma similar a lo mostrado en la imagen.
+• Puedes utilizar los formatos de fuente que quieras (tipo, tamaño, aspecto, etc.).
+• Las leyendas de todos los bloques y los títulos del bloque “La Pizza” están resaltados en negrita.
+• Los campos “Nombre”, “Dirección” y “Teléfono” deben ser obligatorios.
+• Aplica los atributos que consideres a los distintos controles del formulario.
+• Algunos elementos, como las etiquetas del bloque “Datos de Entrega” o los elementos del bloque “Confirmación de Pedido y Pago”, están dispuestos en contenedores para poder hacer que se distribuyan a izquierda y/o derecha, (float, flexbox, etc.)
+    -->
+    <h2>Pizzeria Las 4 Estaciones - Formulario de Pedidor</h2>
+    <form action="" method="get">
+        <fieldset id="pizza">
+            <legend>La pizza</legend>
+            <h4>Ingredientes</h4>
+            <div class="form-row check-radio">
+                <input type="checkbox" name="ingredient" id="" value="cheese"> Queso
+                <br>
+                <input type="checkbox" name="ingredient" id="" value="pimient"> Pimienta
+                <br>
+                <input type="checkbox" name="ingredient" id="" value="onion"> Cebolla
+                <br>
+                <input type="checkbox" name="ingredient" id="" value="extra-tomato"> Tomate Extra
+                <br>
+                <input type="checkbox" name="ingredient" id="" value="chicken"> Pollo
+                <br>
+                <input type="checkbox" name="ingredient" id="" value="meat"> Ternera
+                <br>
+                <input type="checkbox" name="ingredient" id="" value="pineapple"> Piña
+            </div>
+            <h4>Tamaño</h4>
+            <div class="form-row check-radio">
+                <input type="radio" name="size" id="small" value="small"> Pequeña
+                <br>
+                <input type="radio" name="size" id="medium" value="medium"> Mediana
+                <br>
+                <input type="radio" name="size" id="large" value="large"> Grande
+            </div>
+        </fieldset>
+        <fieldset id="ship-info">
+            <legend>Datos de entraga</legend>
+            <div class="form-row">
+                <label for="name">Nombre:</label>
+                <input type="text" name="name" id="name">
+            </div>
+            <div class="form-row">
+                <label for="dir">Dirección:</label>
+                <input type="text" name="direction" id="dir">
+            </div>
+            <div class="form-row">
+                <label for="tel">Teléfono:</label>
+                <input type="text" name="telephone" id="tel">
+            </div>
+            <div class="form-row">
+                <p>Instrucciones especiales:</p>
+                <textarea name="$$$$" id="instructions" rows="10"></textarea>
+            </div>
+        </fieldset>
+        <fieldset class="payment">
+            <legend>Confirmación de Pedido y Pago</legend>
+            <select name="pay-option" id="pay-option">
+                <option value="cash" selected>Efectivo</option>
+                <option value="bizum">Bizum</option>
+                <option value="card">Tarjeta</option>
+            </select>
+            <input type="submit" value="Realizar pedido">
+        </fieldset>
+</body>
+</html>

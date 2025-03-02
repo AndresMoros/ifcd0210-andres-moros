@@ -1,0 +1,46 @@
+* {
+  font-family: "Cascadia Code", Fira Code, monospace;
+}
+body {
+  max-width: 600px;
+  margin: auto;
+}
+h1 {
+  text-align: center;
+}
+form {
+  margin: auto;
+  max-width: min-content;
+  padding: 1rem;
+  border: 2px solid #813ffd;
+  color: #ffffff;
+  font-weight: bold;
+  background: #6a6aff;
+}
+
+form label {
+  display: block;
+  padding: 0 0 1rem 0;
+}
+
+input[type="reset"],
+input[type="submit"] {
+  border-radius: 0;
+  border: none;
+  display: block;
+  margin: .7rem auto 0;
+  padding: .3rem 1rem;
+}
+input[type="reset"]:hover,
+input[type="submit"]:hover {
+  transition: 0.3s;
+  color: #fff;
+  cursor: pointer;
+}
+
+input[type="reset"]:hover {
+  background: #d14242;
+}
+input[type="submit"]:hover {
+    background-color: #34aa3c;
+}

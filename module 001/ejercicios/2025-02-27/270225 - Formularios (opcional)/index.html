@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formularios</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h2>Curriculum Vital</h2>
+    <form action="#" method="get" id="cv-form">
+      <fieldset id="personal-data">
+        <legend>Datos Personales</legend>
+        <div class="form-row">
+          <label for="name">Nombre</label>
+          <input required type="text" id="name" maxlength="30" />
+        </div>
+        <div class="form-row">
+          <label for="last-name">Apellidos</label>
+          <input required type="text" id="last-name" maxlength="80" />
+        </div>
+        <div class="form-row">
+          <label for="birth-date">Fecha de nacimiento</label>
+          <input required type="date" id="birth-date" />
+        </div>
+        <div class="form-row">
+          <label for="birth-date">Fecha de nacimiento</label>
+          <input required type="date" id="birth-date" />
+        </div>
+        <div class="form-row">
+          <label for="age">Edad</label>
+          <input required type="number" name="age" id="age" min="18" max="65" />
+        </div>
+        <div class="form-row">
+          <label for="direction">Dirección</label>
+          <input required type="text" id="direction" />
+        </div>
+        <div class="form-row">
+          <label for="phone-number">Teléfono</label>
+          <input
+            required
+            type="tel"
+            name="tel"
+            id="phone-number"
+            minlength="9"
+            maxlength="10"
+          />
+        </div>
+        <div class="form-row">
+          <label for="mail">Correo electrónico</label>
+          <input required type="email" maxlength="55" />
+        </div>
+        <div class="form-row">
+          <label for="sex">Sexo</label>
+          <input type="radio" name="sex" id="" value="femenine" /> Hombre
+          <input type="radio" name="sex" id="" value="masculine" /> Mujer
+        </div>
+        <div class="form-row">
+          <label for="picture">Subir foto personal</label>
+          <input
+            type="file"
+            accept="image"
+            name="profile-picture"
+            id="picture"
+          />
+        </div>
+      </fieldset>
+      <!-- HR -->
+      <fieldset id="studies">
+        <legend>Estudios realizados</legend>
+        <div class="form-row">
+          <label for="studies-lvl">Nivel de estudios alcanzado</label>
+          <select name="studies-completed" id="studies-lvl">
+            <option value="none" selected>Sin estudios</option>
+            <option value="primary">Primaria</option>
+
+            <option value="secundary">Secundaria</option>
+            <option value="elementary">Bachiller</option>
+            <option value="uni-grade">Diplomado Universitario</option>
+            <option value="post-grade">Licenciado Universitario</option>
+          </select>
+        </div>
+        <div class="form-row">
+          <label for="">Idiomas</label>
+          <input type="checkbox" name="language" id="english" /> Inglés
+          <input type="checkbox" name="language" id="french" /> Francés
+          <input type="checkbox" name="language" id="german" /> Alemán
+          <input type="checkbox" name="language" id="others" /> Otros
+        </div>
+        <div class="form-row">
+          <label for="other-lang"
+            >Indique nivel de idiomas y qué otros idiomas conoce.</label
+          >
+          <textarea
+            name="language"
+            id="other-lang"
+            cols="68"
+            rows="2"
+          ></textarea>
+        </div>
+      </fieldset>
+      <!-- HR -->
+      <fieldset id="laboral-experience">
+        <legend>Experiencia laboral</legend>
+        <label for="job-1"
+          >Escriba en cada recuadro las características de los últimos 3 empleos
+          que ha tenido</label
+        >
+        <br />
+        <textarea
+          name="language"
+          id="job-1"
+          cols="68"
+          rows="2"
+          placeholder="Trabajo 1"
+        ></textarea>
+        <textarea
+          name="language"
+          id="job-2"
+          cols="68"
+          rows="2"
+          placeholder="Trabajo 1"
+        ></textarea>
+        <textarea
+          name="language"
+          id="job-3"
+          cols="68"
+          rows="2"
+          placeholder="Trabajo 1"
+        ></textarea>
+      </fieldset>
+      <fieldset id="form-submit">
+        <div class="form-row">
+          <input type="checkbox" checked name="advertasing" id="ads" /><label
+            for="ads"
+            >Deseo suscribirme al boletín de empleo.</label
+          >
+        </div>
+        <input type="submit" value="Guardar cambios" class="btn submit"/>
+        <input type="submit" value="Borrar datos introducidos" class="btn reset" />
+      </fieldset>
+    </form>
+  </body>
+</html>
