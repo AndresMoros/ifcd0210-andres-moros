@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Andrés Moros" />
+    <title>Ejercico 5</title>
+  </head>
+  <body>
+    <!-- 
+        ACCESO AL DOM Y APLICACIONES DE ESTILOS
+        • En un documento web y dentro de una división, crea el siguiente contenido:
+            - <h1 id="t1">Ejercicio 5. Examen UF1841 11-03-2024</h1>
+            - <p id=""p1>Desarrollo y reutilización de componentes de software y multimedia mediante lenguajes de guión</p>
+        • Usando JavaScript, aplica los siguientes estilos:
+            - Para el fondo de la página usa un color azul claro
+            - Para amnos textos: título y párrafo
+                -- El tipo de fuente Comic Sans Ms y su genérica, asi como alineación centro
+            - Para el título:
+                -- Tamaño de fuente de 30px y color granate
+            - Para el párrafo: 
+                -- Tamaño de 24px y color azul marino  
+        • Ahora añade un nuevo párrafo a continuación del anterior con los mismos estilos CSS y con el siguiente texto:
+            - 'Modulo 1: Programación web en el entorno cliente'
+        • Ubica el script en el lugar más adecuado
+        • Combina las distintas propiedades de javaScipr que conozcas para aplicar los estilos
+        -->
+    <div>
+      <h1 id="t1">Ejercicio 5. Examen UF1841 11-03-2024</h1>
+      <p id="p1">
+        Desarrollo y reutilización de componentes de software y multimedia
+        mediante lenguajes de guión
+      </p>
+    </div>
+    <script>
+      document.querySelector("body").style.cssText = "background: lightblue";
+
+      let texts = document.querySelectorAll("div *");
+      texts.forEach(
+        (el) =>
+          (el.style.cssText =
+            "font-family: 'Comic Sans Ms', cursive; text-align: center;")
+      );
+
+      let titulo = document.querySelector("#t1");
+      let parrafos = document.querySelectorAll("p");
+
+      titulo.style.cssText += "font-size: 30px; color: maroon";
+      parrafos.forEach(
+        (el) => (el.style.cssText += "font-size: 24px; color: #000080")
+      );
+
+      document.querySelector("div").innerHTML += `
+      <p id="p2">Modulo 1: Programación web en el entorno cliente</p>
+        `;
+
+    document.getElementById('p2').style.cssText = "font-family: 'Comic Sans Ms', cursive; text-align: center;font-size: 24px; color: #000080"
+    </script>
+  </body>
+</html>

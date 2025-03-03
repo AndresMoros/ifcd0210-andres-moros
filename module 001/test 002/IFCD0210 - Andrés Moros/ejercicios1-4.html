@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Andrés Moros">
+    <title>Ejercicios 1 - 4</title>
+    <style>
+      * {
+        font-family: "Cascadia Code", Fira Code, monospace;
+      }
+      input {
+        width: 300px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Ejercicio 1</h1>
+    <!--
+    CREACIÓN DE OBJETOS (2 puntos)
+    • Crea el objeto literal 'alumno' con notación específica y las siguientes características:
+    • Propiedades:
+        - nombre, apellido1, apellido2
+    • Método:
+        - mostrarDatosAlumno()
+    • Carga en las propiedades tu nombre y apellidos
+    • Muestra tus datos por pantalla llamando al método mostrarDatosAlumno(); 
+    -->
+    <p id="res-ej1"></p>
+    <hr />
+    <script>
+      let alumno = {
+        nombre: "Andrés",
+        apellido1: "Moros",
+        apellido2: "Araujo",
+        mostrarDatosAlumno: () =>
+          `Nombre: ${alumno.nombre}<br>Apellidos: ${alumno.apellido1} ${alumno.apellido2}<br>`,
+      };
+      document.getElementById("res-ej1").innerHTML =
+        alumno.mostrarDatosAlumno();
+    </script>
+    <!-- -------------------------- -->
+    <h1>Ejercicio 2</h1>
+    <!-- 
+    CREACION Y USO DE UNA FUNCIÓN (2 puntos)
+    • Un cliente compra varias unidades de un producto
+    • Dicho producto tiene un precio unitario
+    • Calcular el subtotal (precio sin IVA) y el total a pagar (precio con IVA), por los productos adquiridos
+    • El valor del IVA es del 15%
+    • Introducir por teclado el nombre del producto, su precio y la cantidad comprada, y pasar esttos datos como parámetros a una función.
+    • La función, que no retornará ningún dato, deberá calcular y después mostrar por pantalla en una o varias líneas los siguientes datos:
+        - El nombre del producto
+        - Su precio unitario
+        - La cantidad comprada
+        - El subtotal
+        - El total a pagar
+     -->
+    <input
+      type="text"
+      id="product-name"
+      placeholder="Nombre del producto"
+    /><br />
+    <input
+      type="number"
+      id="product-amount"
+      placeholder="Cantidad del producto"
+    /><br />
+    <input
+      type="number"
+      id="product-price"
+      placeholder="Precio del producto en €"
+    /><br />
+    <button id="calc-btn">Mostrar Datos</button>
+    <p id="res-ej2"></p>
+    <hr />
+    <script>
+      const IVA = 1.15; // IVA del 15%
+      const calcIVA = (cost, iva) => cost * iva;
+      const showData = (name, amount, price) => {
+        document.getElementById("res-ej2").innerHTML = `
+            El producto es: ${name}<br>
+            La cantidad es: ${amount}<br>
+            El precio por unidad es: ${price}€<br>
+            El subtotal es: ${(price * amount).toFixed(2)} €<br>
+            El total es: ${calcIVA((price * amount).toFixed(2), IVA)} €<br>
+            `;
+      };
+      document.getElementById("calc-btn").addEventListener("click", () => {
+        let producto = document.getElementById("product-name").value;
+        let cantidad = document.getElementById("product-amount").value;
+        let precio = parseInt(document.getElementById("product-price").value);
+        showData(producto, cantidad, precio);
+      });
+    </script>
+    <!-- -------------------------- -->
+    <h1>Ejercicio 3</h1>
+    <p id="phrase">
+      <i>El pasto es pisto, pero el pesto no se usa en la pasta</i>
+    </p>
+    <p id="res-ej3"></p>
+    <hr />
+    <!-- 
+    • USO DE EXPRESIOES REGULARES (2 puntos)
+    • Carga la siguiente frase en una variable:
+        - 'El pasto es pisto, pero el pesto no se usa en la pasta'
+    • Crea un patrón que encuentra en el texto las palabras 'pasto', 'pisto', 'pesto' y 'pasta' y guardalo en una variable
+    • Carga todas la coincidencias en un array
+    • ¿Cuántas coincidencias se han encontrado?
+    • Usa un bucle for para mostrar todas las palabras cargadas en el array
+    -->
+    <script>
+      const regex = /p[a|i|e]st[a|o]/g;
+      const str = document.getElementById("phrase").innerText;
+      const finds = str.match(regex);
+      document.getElementById("res-ej3").innerHTML = `
+        La cantidad de coincidencias es: ${finds.length}
+        <br>`;
+      for (let i = 0; i < finds.length; i++) {
+        document.getElementById("res-ej3").innerHTML += `
+        • La coincidencia número ${i + 1} es: ${finds[i]}<br>
+        `;
+      }
+    </script>
+    <!-- -------------------------- -->
+    <h1>Ejercicio 4</h1>
+    <!-- 
+    ARRAYS: MÉTODOS DE ARRAYS Y USO CON BUCLES (2 puntos)
+    • Crea un array vacío para 10 elementos y llámalo 'números'
+    • Carga por teclado 10 número en él usando un bucle for
+    • Confirma que contiene 10 elmentos mostranbdo su número en pantalla
+    • Muestra su contenido por pantalla usando, o un bucle for, o uno for...in
+    • Cópialo en otro nuevo con el nombre 'numerosCopia'
+    • Con éste nuevo Array (numerosCopia), realiza las siguientes operaciones:
+        - Inserta sin eliminar 2 nuevos números en las posiciones 5 y 6 del array
+        - Mueestra su contenido ordenado alfabéticamente
+        - Muestra la suma de todos los números introducidos en el array
+    -->
+    <p id="res-ej4"></p>
+    <script>
+      // let numeros = new Array(10);
+
+      // for(let i = 0; numeros.length;  i++) {
+      //     numeros[i] = (prompt(`Introduce el número No. ${i + 1} para el array`))
+      // }
+
+      let numeros = [9, 58, 42, 9, 53, 6, 73, 20, 11, 54];
+      document.getElementById("res-ej4").innerHTML += `
+      La cantidad de elemenos en el array <i>numeros</i> es: ${numeros.length}
+      <br>
+      `;
+      numeros.forEach(
+        (num, i) =>
+          (document.getElementById("res-ej4").innerHTML += `El valor número ${
+            i + 1
+          } es ${num}<br>`)
+      );
+      let numerosCopia = [...numeros];
+
+      numerosCopia.splice(4, 0, 999, 666);
+      document.getElementById("res-ej4").innerHTML += `
+      Números ordenados alfabéticamente: ${numerosCopia.sort()}
+      <br>
+      `;
+      // PARA ORDENARLOS ALFABÉTICAMENTE SERÍA:
+      //   document.getElementById('res-ej4').innerHTML += `
+      //   Números ordenados numéricamente: ${numerosCopia.sort((a, b) => a - b)}
+      //   <br>
+      //   `
+      
+      let sum = 0;
+      for(let i = 0; i < numerosCopia.length; i++) {
+        sum += numerosCopia[i]
+      }
+
+      document.getElementById('res-ej4').innerHTML += `
+      La suma de todos los números en <i>numerosCopia</i> es ${sum}
+      `
+    //  OTRA FORMA DE HACERLO SERÍA CON EL MÉTODO REDUCE()
+    // let sum =  numerosCopia.reduce((acc, el) => acc + el, 0) // da el mismo resultado que usar un bucle
+    </script>
+  </body>
+</html>
