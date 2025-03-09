@@ -137,13 +137,18 @@
     -->
     <p id="res-ej4"></p>
     <script>
-      // let numeros = new Array(10);
+      let numeros = new Array(10);
 
       // for(let i = 0; numeros.length;  i++) {
       //     numeros[i] = (prompt(`Introduce el número No. ${i + 1} para el array`))
       // }
 
-      let numeros = [9, 58, 42, 9, 53, 6, 73, 20, 11, 54];
+      // Correción
+      for(let i = 0;i < numeros.length;  i++) {
+          numeros[i] = (prompt(`Introduce el número No. ${i + 1} para el array`))
+      }
+
+      // let numeros = [9, 58, 42, 9, 53, 6, 73, 20, 11, 54];
       document.getElementById("res-ej4").innerHTML += `
       La cantidad de elemenos en el array <i>numeros</i> es: ${numeros.length}
       <br>

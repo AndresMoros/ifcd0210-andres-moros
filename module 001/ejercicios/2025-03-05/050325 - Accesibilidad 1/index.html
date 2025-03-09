@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Accesibilidad 1</title>
+    <style>
+        body {
+            max-width: 600px;
+            margin: auto;
+        }
+        header nav ul {
+            display: flex;
+            list-style: none;
+            padding: 0;
+            gap: 30px;
+            justify-content: center;
+        }
+        header p,
+        footer p{
+            text-align: center;
+            font-size: 1.2rem;
+        }
+        main figure {
+            width: 300px;
+            margin: auto;
+            display: block;
+        }
+        main figure figcaption {
+            font-size: 0.9rem;
+            text-align: center;
+        }
+        main figure img {
+            border-radius: 5%;
+            display: block;
+            margin: auto;
+            width: 170px;
+        }
+    </style>
+  </head>
+  <body>
+    <header>
+        <p>Cabecera</p>
+        <nav>
+            <ul>
+                <li><a href="#">Novedades</a></li>
+                <li><a href="#">Catálogo</a></li>
+                <li><a href="#">Registro</a></li>
+                <li><a href="#">Ayuda</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Contenido principal</h2>
+        <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam quia voluptate culpa distinctio <b>error</b> et accusantium natus aut asperiores, sed enim dolorem corporis voluptates! Nemo deleniti iure officia quos! Nam?
+        </p>
+        <figure>
+            <img src="img/random.jpg" alt="fotico random">
+            <figcaption>Gatitomorfosis</figcaption>
+        </figure>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam natus expedita rem commodi, laboriosam corporis? Totam qui maiores temporibus <b>perferendis eligendi atque! Nihil</b> esse neque exercitationem, cupiditate error soluta ex. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem veritatis numquam quam <em>distinctio</em> assumenda, iure, dolorum asperiores quibusdam sequi dolorem omnis incidunt non odio fugiat? Tempore cumque modi earum minima.
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam accusamus ab dolorem quaerat <a href="#">assumenda</a> eos nemo accusantium nulla autem eum facilis inventore, omnis a laboriosam rem fugiat doloribus! Magnam, harum.
+        </p>
+        <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta adipisci odio, ab libero reprehenderit reiciendis eaque quos itaque dolore illo? Necessitatibus repellat sint aspernatur omnis quasi commodi excepturi ipsam dolor! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis quaerat repudiandae quasi, praesentium ducimus ut placeat in? Ab facilis impedit, at ducimus suscipit doloribus, nisi vel a deleniti atque amet!
+        </p>
+    </main>
+    <footer>
+        <p>Pie de página</p>
+    </footer>
+  </body>
+</html>

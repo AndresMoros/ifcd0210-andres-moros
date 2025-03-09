@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Mi página</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: "Cascadia Code", Fira Code, monospace;
+      }
+      .width-600 {
+        max-width: 1000px;
+		margin: 0 auto;
+      }
+      header {
+        background: #800000;
+	}
+      .header-p {
+        color: #ffd700;
+        font-weight: bolder;
+        font-size: 2rem;
+        text-align: center;
+		padding: 1rem;
+	}
+      nav {
+        background: #1d1d1d;
+        display: flex;
+        justify-content: space-evenly;
+		padding: 1rem;
+      }
+      nav a {
+        text-decoration: none;
+        color: #0063cb;
+        font-size: 1rem;
+      }
+      nav a:hover {
+        color: orange;
+      }
+      .container {
+        display: flex;
+        flex-direction: row-reverse;
+      }
+	  .container > * {
+		padding: .5rem;
+		border: 1px solid red;
+	  }
+	  .container aside {
+		width: 40%;
+		min-width: 150px;
+	  }
+	  .container aside ul {
+		padding-left: 1.2rem;
+		margin-top: 1rem;
+	  }
+	  .container main figure figcaption {
+		font-size: .6rem;
+	  }
+      /* h1,
+      p {
+        font-family: verdana, serif;
+        color: blue;
+      }
+      p {
+        text-align: justify;
+      }
+      h1,
+      p,
+      a {
+        padding: 5px;
+      } */
+    </style>
+  </head>
+  <body class="width-600">
+    <header>
+      <p class="header-p">Anton's Shoes</p>
+      <nav>
+        <a href="#" target="_blank">Nuestro Calzado</a>
+        <a href="#" target="_blank">Antonio's Collection</a>
+        <a href="#" target="_blank">Realizar Pedido</a>
+      </nav>
+    </header>
+    <div class="container">
+      <main>
+        <p>
+			Nuestros productos son los mejores para andar cómodo. Ofrecemos la mejor moda en zapatos que te encantarán, con descuentos especiales. Además, en nuestra tienda encontrarás precios competitivos, una gran variedad de marcas reconocidas y tallas disponibles, junto con ofertas irresistibles que no querrás perderte.
+        </p>
+		<figure>
+			<figcaption>Sandalias Anton</figcaption>
+			<img src="3483cdr23.jpg" alt="Sandalias"/><br />
+		</figure>
+        <img src="fotos1.jpg" /><br />
+        <a href="pagina2.html">Pulsar aquí</a><br />
+        <a href="archivo3.html">Si quieres verlos pulsa aquí.</a><br />
+      </main>
+      <aside>
+        <h3>Categorias de calzados</h3>
+        <ul>
+          <li>Sandalias</li>
+          <li>Mocasines</li>
+          <li>Deportivos</li>
+          <li>Botas</li>
+          <li>Infantil</li>
+        </ul>
+      </aside>
+    </div>
+  </body>
+</html>

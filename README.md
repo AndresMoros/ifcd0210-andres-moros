@@ -1,4 +1,4 @@
-# IFCD2010 Desarrollo de Aplicaciones con Tecnologías Web
+# IFCD0210 Desarrollo de Aplicaciones con Tecnologías Web
 
 ## Tabla de contenido
 
@@ -52,6 +52,7 @@ Esta es una lista de los recursos y herramientas que he usado personalmente para
 - [DeepSeek Chat](https://www.deepseek.com/)
 - [RunJS - Web Version (free)](https://runjs.app/play)
 - [Obsidian](https://obsidian.md/)
+- [Color Wheel - Adobe Color](https://color.adobe.com/es/create/color-wheel)
 ## Ficha técnica oficial
 
 [Boletín Oficial del Estado](https://sede.sepe.gob.es/es/portaltrabaja/resources/pdf/especialidades/IFCD0210.pdf)

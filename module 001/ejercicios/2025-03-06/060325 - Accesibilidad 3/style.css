@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+header,
+main,
+footer {
+  width: 600px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+#hd,
+#ft {
+  background: #b1d099;
+}
+body {
+  background-color: #c9d8ff;
+}
+div {
+  color: #b1d099;
+}
+.texto {
+  margin: 1rem 0;
+}
+.data-table {
+  border-collapse: collapse;
+  width: 200px;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  color: #ab1313;
+}
