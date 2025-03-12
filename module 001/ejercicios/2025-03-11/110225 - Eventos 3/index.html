@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <title>Eventos 3 - Validación de formularios</title>
+  </head>
+  <body>
+    <div class="container center">
+      <form action="get" class="form">
+        <div class="form-div">
+          <input
+            type="text"
+            size="40"
+            placeholder="Nombre"
+            id="name"
+            name="Nombre"
+          />
+        </div>
+        <span id="output-name"></span>
+        <button class="submit-btn center" id="form_1-btn">
+          Comprobar Nombre
+        </button>
+      </form>
+      <form action="get">
+        <div class="form-div">
+          <input
+            type="text"
+            size="25"
+            placeholder="Usuario"
+            id="username"
+            name="Usuario"
+          />
+          
+        </div>
+        <div class="form-div">
+            <input
+            type="password"
+            size="25"
+            placeholder="Contraseña"
+            id="password"
+            name="Contraseña"
+          />
+        </div>
+        <button class="submit-btn center" id="form_2-btn">
+          Identificarse
+        </button>
+      </form>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,10 @@
+* {
+    color: #Ea9f15 !important;
+    background: #fff !important;
+}
+header, footer, body {
+    border: 1px solid #ccc;
+}
+/* 
+La hoja de estilos 'estilos1a' no posee el contraste suficiente respecto al texto y el fondo, ya que no pasa ninguna prueba de contraste debido a que posee uno de 2.22.
+ */

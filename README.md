@@ -44,6 +44,7 @@ Esta es una lista de los recursos y herramientas que he usado personalmente para
 - [25 métodos de Arrays en JavaScript que todo desarrollador debe conocer - dev.to](https://dev.to/gastondanielsen/25-metodos-de-arrays-en-javascript-que-todo-desarrollador-debe-conocer-4a2d)
 - [JavaScript: Array Methods - W3Schools](https://www.w3schools.com/js/js_array_methods.asp)
 - [Test your regular expressions - regex101](https://regex101.com/)
+- [¿Cómo hacer un salto de línea en PHP?](https://keepcoding.io/blog/como-hacer-un-salto-de-linea-en-php/)
 
 **Nota:** Algunos de los recursos no poseen una traducción _oficial_ al español
 ### Herramientas

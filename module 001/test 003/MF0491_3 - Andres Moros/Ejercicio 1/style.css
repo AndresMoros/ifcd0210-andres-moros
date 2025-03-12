@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/* ESTILOS DE LA CABECERA */
+body {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 800px;
+    min-width: 600px;
+    margin: auto
+}
+header {
+    color: #fff;
+    background: #36558F;
+    padding: 1rem;
+    width: 100%;
+}
+header h1 {
+    text-align: center;
+}
+.nav-bar {
+    display: flex;
+}
+.nav-bar ul {
+    list-style: none;
+}
+.--header {
+    flex-direction: column;
+    gap: .3rem;
+}
+.--header a{
+    color: #ddd;
+    text-decoration: none;
+    padding: .2rem .6rem;
+}
+.--header div {
+    padding: .5rem;
+}
+.--header div ul{
+    display: flex;
+}
+.--header .nav-bar--top ul{
+    padding-top: 1rem;
+    justify-content: center;
+    gap:.5rem;
+}
+.--header .nav-bar--top ul li a:hover{
+    background-color: #b7d3e1;
+    color: #000;
+}
+.--header .nav-bar--bottom ul {
+    justify-content: flex-end;
+    gap: 1rem;
+}
+.--header .nav-bar--bottom ul li a {
+    font-size: .7rem;
+}
+.--header .nav-bar--bottom ul li a:hover {
+    background: #fff;
+    color: #000;
+}
+/* ESTILOS DEL CONTENIDO PRINCIPAL Y FOOTER */
+
+main {
+    padding: 1rem;
+    width: 60%;
+}
+main h2, main h3, main h4 {
+    margin-bottom: .5rem;
+}
+main article p{
+    padding: 1rem;
+}
+main article ul, aside ul {
+    padding-left: 1rem;
+}
+aside {
+    width: 40%;
+    padding: 1rem;
+    height: 100vh !important;
+    background: #D4E4BC;
+}
+aside ul li {
+    padding: .4rem;
+}
+footer {
+    width: 100%;
+    background: #96ACB7;
+    padding: 1rem;
+}
+.--footer ul{
+    display: flex;
+}
+.--footer ul{
+    display: flex;
+}
+.rigth-btn {
+    margin-left: 18rem;
+    margin-right: 1rem;
+}
