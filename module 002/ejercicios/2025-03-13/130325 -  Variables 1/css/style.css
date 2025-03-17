@@ -1,0 +1,39 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    max-width: 1000px;
+    font-family: 'Calibri', sans-serif;
+    justify-content: space-around;
+}
+
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+td, th {
+    border: 1px solid black;
+    padding: .2rem .7rem;
+}
+.datos {
+    background: #ccc;
+    padding: 1rem;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px black;
+}
+.datos h1 {
+    color: blue;
+}
+.datos ul li{
+    font-weight: bold;
+}
+
+.datos ul li ul li {
+    font-weight: normal;
+}

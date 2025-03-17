@@ -1,0 +1,12 @@
+body {
+    font-family: "Cascadia Code", Fira Code, monospace;
+    width: 600px;
+    margin: 0 auto;
+    background: #ffc3c3;
+}
+
+div {
+    padding: 1rem;
+    background: #aeffbe;
+    margin: 5px;
+}
