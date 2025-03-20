@@ -35,8 +35,10 @@ Esta es una lista de los recursos y herramientas que he usado personalmente para
 - [Grid Garden](https://cssgridgarden.com/)
 - [CondinGame](https://www.codingame.com/)
 - [Eloquent JavaScript ES - Traducción por Midudev](https://www.eloquentjavascript.es/)
-### Fuentes para temas puntuales
+- [PHP Manual - php.net](https://www.php.net/manual/en/index.php)
+- [PHP Cheatsheet -  Arnaud Becher](https://github.com/smknstd/modern-php-cheatsheet)
 
+### Fuentes para temas puntuales
 - [Cómo utilizar la Interpolación de Cadenas en JavaScript - freeCodeCamp](https://www.freecodecamp.org/espanol/news/como-utilizar-la-interpolacion-de-cadenas-en-javascript/)
 - [map, reduce y filter de JavaScript: Funciones de arreglo JS explicadas con ejemplos de código - freeCodeCamp](https://www.freecodecamp.org/espanol/news/map-reduce-y-filter-de-javascript-funciones-de-arreglo-js-explicadas-con-ejemplos-de-codigo/)
 - [Programación funcional en JavaScript: Explicado - freeCodeCamp](https://www.freecodecamp.org/espanol/news/programacion-funcional-en-javascript-explicado/)
@@ -45,6 +47,12 @@ Esta es una lista de los recursos y herramientas que he usado personalmente para
 - [JavaScript: Array Methods - W3Schools](https://www.w3schools.com/js/js_array_methods.asp)
 - [Test your regular expressions - regex101](https://regex101.com/)
 - [¿Cómo hacer un salto de línea en PHP?](https://keepcoding.io/blog/como-hacer-un-salto-de-linea-en-php/)
+- [Generar Cadenas Alfanuméricas Aleatorias en PHP](https://code.tutsplus.com/es/generate-random-alphanumeric-strings-in-php--cms-32132t)
+- [Función str_suffle - PHP Manual](https://www.php.net/manual/en/function.str-shuffle.php)
+- [PHP: Ordenamiento de arrays - php.net](https://www.php.net/manual/es/array.sorting.php)
+- [PHP: number_format - php.net](https://www.php.net/manual/en/function.number-format.php)
+- [PHP: money_format (PHP 4.0 - PHP 7.4.0) - php.net](https://www.php.net/manual/en/function.money-format.php)
+- [PHP: Ámbito de variables en un foreach - ChatGPT](https://chatgpt.com/share/67dc0ec3-025c-8012-9384-305d6445fb37)
 
 **Nota:** Algunos de los recursos no poseen una traducción _oficial_ al español
 ### Herramientas

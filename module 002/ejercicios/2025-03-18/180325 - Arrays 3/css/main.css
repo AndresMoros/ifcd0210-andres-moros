@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #ffbdbd;
+    font-family: 'Cascadia Code', Fira Code, monospace;
+    width: 700px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    padding: .5rem;
+}
+
+.container {
+    padding: 1rem;
+    background: #e9f6b8;
+}
+
+h3 {
+    padding: 1rem;
+}
