@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #ffbdbd;
+    font-family: 'Cascadia Code', Fira Code, monospace;
+    width: 700px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 1rem;
+
+}
+
+p {
+    padding: 1rem;
+}
+
+.container {
+    padding: 1rem;
+    background: #e9f6b8;
+}
+
+table {
+    border-collapse: collapse;
+    border: 1px solid #000;
+    margin: 0 auto;
+}
+
+th {
+    background: #ffbdbd;
+    border: 1px solid #000;
+
+}
+
+th, td {
+    padding: 1rem;
+    border: 1px solid #000000;
+}
+
+.output {
+    color: rgb(255, 255, 255);
+    background: #000;
+    padding: 1rem;
+    border: 2px dotted;
+}

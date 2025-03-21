@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PHP - Functions 1</title>
+    <link rel="stylesheet" href="css/main.css">
     <?php
     include "functions.php"
     ?>
@@ -12,13 +13,14 @@
 
 <body>
     <div class="container">
+        <h1>Ejercicio</h1>
         <table>
             <tr>
                 <th>Resta</th>
                 <th>Multiplicación</th>
             </tr>
             <tr>
-                <td><?= res() . $resta ?></td>
+                <td><?= res()  ?></td>
                 <td><?= $mult() ?></td>
             </tr>
             <tr>
@@ -26,7 +28,7 @@
                 <th>Suma</th>
             </tr>
             <tr>
-                <td><?= div($divisble, $divisor, $div_res) . $div_res?></td>
+                <td><?= div($divisble, $divisor)?></td>
                 <td><?= $sum(28, 31) ?></td>
             </tr>
         </table>

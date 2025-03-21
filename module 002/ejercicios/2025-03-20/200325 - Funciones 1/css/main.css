@@ -24,26 +24,18 @@ p {
     background: #e9f6b8;
 }
 
-.months {
-    list-style: none;
-    width: max-content;
-    padding: .5rem;
-    font-size: .7rem;
-    display: inline-block;
+table {
+    border-collapse: collapse;
+    border: 1px solid #000;
 }
 
-.array_func {
-    background: #b8f6e0;
+th {
+    background: #ffbdbd;
+    border: 1px solid #000;
+
 }
 
-.array_simple {
-    background: #97f69d;
-}
-
-.array_asig {
-    background: #d7b8f6;
-}
-
-.client_data {
-    padding: 2rem;
+th, td {
+    padding: 1rem;
+    border: 1px solid #000000;
 }

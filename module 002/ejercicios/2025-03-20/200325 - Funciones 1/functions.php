@@ -5,15 +5,13 @@
 
 $minuendo = 10;
 $sustraendo = 3;
-$resta = null;
 
 function res () {
     global $minuendo;
     global $sustraendo; 
-    global $resta;
     // Al no tener parámetros es necesario especificar que son variables globales
 
-    $resta = $minuendo - $sustraendo;
+    echo $minuendo - $sustraendo;
 }
 
 
@@ -28,17 +26,13 @@ $mult = fn () => 3 * 3;
 
 $divisble = 4;
 $divisor = 2;
-$div_res = null;
 
-function div (float $num, float $oper, &$res) {
-    $res = $num / $oper;
-    // Usando el ampersand en el parámetro junto al nombre del parámetro, se modificará el valor de la variable fuera de la función
+function div (float $num, float $oper) {
+    echo $num / $oper;
 } 
 
 # Ejercicio 4
 // Crea una función para sumar 2 números con parámetros y con retorno de datos
 
 $sum = fn ($num1, $num2) => $num1 + $num2;
-
-
 ?>
