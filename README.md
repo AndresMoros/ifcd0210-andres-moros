@@ -53,6 +53,7 @@ Esta es una lista de los recursos y herramientas que he usado personalmente para
 - [PHP: number_format - php.net](https://www.php.net/manual/en/function.number-format.php)
 - [PHP: money_format (PHP 4.0 - PHP 7.4.0) - php.net](https://www.php.net/manual/en/function.money-format.php)
 - [PHP: Ámbito de variables en un foreach - ChatGPT](https://chatgpt.com/share/67dc0ec3-025c-8012-9384-305d6445fb37)
+- [A beginner's guide to Constructor Property Promotion in PHP - dev.to](https://dev.to/asfiaaiman/a-beginners-guide-to-constructor-property-promotion-in-php-5p1)
 
 **Nota:** Algunos de los recursos no poseen una traducción _oficial_ al español
 ### Herramientas
