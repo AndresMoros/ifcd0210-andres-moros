@@ -39,6 +39,7 @@ Esta es una lista de los recursos y herramientas que he usado personalmente para
 - [PHP Cheatsheet -  Arnaud Becher](https://github.com/smknstd/modern-php-cheatsheet)
 
 ### Fuentes para temas puntuales
+
 - [Cómo utilizar la Interpolación de Cadenas en JavaScript - freeCodeCamp](https://www.freecodecamp.org/espanol/news/como-utilizar-la-interpolacion-de-cadenas-en-javascript/)
 - [map, reduce y filter de JavaScript: Funciones de arreglo JS explicadas con ejemplos de código - freeCodeCamp](https://www.freecodecamp.org/espanol/news/map-reduce-y-filter-de-javascript-funciones-de-arreglo-js-explicadas-con-ejemplos-de-codigo/)
 - [Programación funcional en JavaScript: Explicado - freeCodeCamp](https://www.freecodecamp.org/espanol/news/programacion-funcional-en-javascript-explicado/)
@@ -53,7 +54,12 @@ Esta es una lista de los recursos y herramientas que he usado personalmente para
 - [PHP: number_format - php.net](https://www.php.net/manual/en/function.number-format.php)
 - [PHP: money_format (PHP 4.0 - PHP 7.4.0) - php.net](https://www.php.net/manual/en/function.money-format.php)
 - [PHP: Ámbito de variables en un foreach - ChatGPT](https://chatgpt.com/share/67dc0ec3-025c-8012-9384-305d6445fb37)
+- [Operadores en PHP: ?? | Coalesce Operator - PHP Sensei](https://phpsensei.es/operadores-en-php-null-coalesce-operator/)
 - [A beginner's guide to Constructor Property Promotion in PHP - dev.to](https://dev.to/asfiaaiman/a-beginners-guide-to-constructor-property-promotion-in-php-5p1)
+- [Type Hinting en PHP - Diego Tham](https://github.com/diegotham/certificacion-php/blob/master/8-Object-Oriented-Programming/8-type-hinting-en-php.md)
+- [In PHP, function parameters - dev.to](https://dev.to/mainick/in-php-function-parameters-3ne0)
+- [Return Types in PHP - dev.to](https://dev.to/karleb/return-types-in-php-3fip)
+
 
 **Nota:** Algunos de los recursos no poseen una traducción _oficial_ al español
 ### Herramientas

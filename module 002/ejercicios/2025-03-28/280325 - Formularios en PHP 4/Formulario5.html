@@ -1,0 +1,86 @@
+<!DOCTYPE html >
+<html>
+	<head>
+
+		<title>Formulario 5 | PHP</title> 
+		<meta charset="UTF-8">
+		<style>
+		/* Quitar el css de aquí y enviarlo a un archivo externo. */
+		body{
+			font-family:calibri, sans-serif;
+		}
+		#d1{
+			width:max-content;
+			border: 5px double navy; 
+			background-color:lightgray;
+			margin:auto;
+		}
+		h2{
+			text-align:center;
+		}
+		#b2{
+			float:right;
+		}
+		.negrita,
+		legend {
+			font-weight:bold;
+		}
+		</style>
+	</head>
+	<body>
+
+		<div id ="d1">
+		<h2>Suscripción electrónica a nuestro boletín.</h2>
+
+		<form action="Comprobar Formulario 5.php" method="post">
+		<fieldset>
+			<legend>Datos Personales.</legend>
+			<label>Nombre:</label><br><input type="text" name="no"><br>
+			<label>Apellidos:</label><br><input type="text" name="ap"><br>
+			<label>Correo electrónico:</label><br><input type="email" name="co"><br>
+		</fieldset>
+		<fieldset>
+			<legend>Sexo.</legend>
+		   <p><input type="radio" name="se" value="Hombre"/>Hombre</p>
+		   <p><input type="radio" name="se" value="Mujer"/>Mujer</p>
+		 </fieldset>
+		 <fieldset>
+			<legend>Nivel de estudios.</legend>
+		   <input type="radio" name="estudios" value="Graduado Escolar" checked="checked">Graduado escolar.<br>
+		   <input type="radio" name="estudios" value="E.S.O."/>Graduado en E.S.O.<br>
+		   <input type="radio" name="estudios" value="Bachillerato"/>Bachillerato. <br/>
+		   <input type="radio" name="estudios" value="Diplomado"/>Diplomado Universitario.<br>
+		   <input type="radio" name="estudios" value="Licenciado"/>Licenciado o Doctorado.<br>
+		</fieldset> 
+		<fieldset>
+		<legend>Intereses y datos de suscripción.</legend>
+		   <p class ="negrita" >Temas de interés: </p>
+		   <input type="checkbox" name="mus" value="Música"> Música<br/>
+		   <input type="checkbox" name="dep" value="Deportes"> Deportes<br/>
+		   <input type="checkbox" name="cin" value="Cine"> Cine<br/>
+		   <input type="checkbox" name="lib" value="Libros"> Libros<br/>
+		   <input type="checkbox" name="cie" value="Ciencia"> Ciencia</p>
+
+		<p class ="negrita" >¿Qué día de la semana le interesa recibir nuestro boletín?</p>
+		<select name="dia">
+			<option>Día de la semana:</option> 
+			<option value="Lunes">Lunes</option> 
+			<option value="Martes">Martes</option> 
+			<option value="Miércoles">Miércoles</option> 
+			<option value="Jueves">Jueves</option> 
+			<option value="Viernes">Viernes</option> 
+			<option value="Sábado">Sábado</option> 
+			<option value="Domingo">Domingo</option> 
+		</select>
+		</p>
+		<p class ="negrita" >Comentarios y opiniones. </p>
+		<textarea name="comentario" rows="5" cols="50"></textarea>
+		<div id = "d2">
+			<br>
+			<input class ="negrita" id ="b1" type="submit" value="Comprobar formulario"> 
+			<input class ="negrita" id ="b2" type="reset" value="Empezar de nuevo">
+		</div>
+		</form>
+	</div>
+	</body>
+</html>

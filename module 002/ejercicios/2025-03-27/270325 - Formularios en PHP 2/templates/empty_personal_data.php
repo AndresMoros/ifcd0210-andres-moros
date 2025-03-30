@@ -1,0 +1,24 @@
+<table>
+    <tr>
+        <th>Nombre</th>
+        <th>Apellidos</th>
+        <th>Dirección</th>
+        <th>Teléfono</th>
+        <th>Edad</th>
+        <th>Año de nacimiento</th>
+    </tr>
+    <tr>
+        <td>
+        </td>
+        <td>
+        </td>
+        <td>
+        </td>
+        <td>
+        </td>
+        <td>
+        </td>
+        <td>
+        </td>
+    </tr>
+</table>

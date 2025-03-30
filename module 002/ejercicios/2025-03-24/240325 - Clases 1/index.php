@@ -32,6 +32,7 @@
         //     foreach($properties as $properName => $value) {
         //         echo "El $properName de $name es $value <br>";
         //     }
+        //     echo "<br>";
         // }
         ?>
 

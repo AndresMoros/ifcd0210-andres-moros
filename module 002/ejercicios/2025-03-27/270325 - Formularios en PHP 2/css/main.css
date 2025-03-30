@@ -1,0 +1,116 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #f3d9d9;
+    font-family: 'Cascadia Code', monospace;
+    width: 900px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 1rem;
+    color: rgb(202, 14, 105);
+
+}
+
+p {
+    padding: 1rem;
+    color: azure;
+}
+
+.container {
+    padding: 1rem;
+    background: #5473ad;
+}
+
+table {
+    border-collapse: collapse;
+    border: 1px solid #000;
+    margin: 0 auto;
+}
+
+th {
+    background: #ffbdbd;
+    border: 1px solid #000;
+}
+
+td {
+    background: #daffbd;
+}
+
+th, td {
+    padding: 1rem;
+    border: 1px solid #000000;
+}
+
+.form {
+    width: max-content;
+    margin: 1rem auto;
+}
+
+.form fieldset {
+    padding: 1rem;
+    /* display: flex; */
+    /* flex-direction: column; */
+    gap: .5rem;
+    align-items: center;
+}
+
+.form label {
+    align-self: normal;
+    color: rgb(229, 103, 26);
+    display: inline-block;
+    width: 120px;
+    margin: 10px 0;
+}
+
+.form .btn{
+    padding: .4rem 1rem;
+    display: block;
+    width: max-content;
+    margin: 0 auto;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+.check_radio {
+    display: inline-block;
+    margin-left: 1rem;
+}
+
+.output {
+    color: #a8e449;
+    background: #000;
+    padding: 1rem;
+    border: 2px dotted;
+}
+
+.output > p {
+    padding: .5rem;
+    color: #a8e449;
+}
+
+.card {
+    background: #c3c9d4;
+    width: max-content;
+    border-radius: 7px;
+    padding: 1rem;
+    display: flex;
+    margin: 1rem auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card p {
+    color: #000;
+}
