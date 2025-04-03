@@ -1,0 +1,2 @@
+create DATABASE IF NOT EXISTS prueba_1
+CHARACTER SET utf8;

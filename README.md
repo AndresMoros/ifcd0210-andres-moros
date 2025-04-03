@@ -36,7 +36,8 @@ Esta es una lista de los recursos y herramientas que he usado personalmente para
 - [CondinGame](https://www.codingame.com/)
 - [Eloquent JavaScript ES - Traducción por Midudev](https://www.eloquentjavascript.es/)
 - [PHP Manual - php.net](https://www.php.net/manual/en/index.php)
-- [PHP Cheatsheet -  Arnaud Becher](https://github.com/smknstd/modern-php-cheatsheet)
+- [PHP Cheatsheet - Arnaud Becher](https://github.com/smknstd/modern-php-cheatsheet)
+- [MySQL Reference Manual - dev.mysql.com](https://dev.mysql.com/doc/refman/8.4/en/)
 
 ### Fuentes para temas puntuales
 
@@ -59,6 +60,9 @@ Esta es una lista de los recursos y herramientas que he usado personalmente para
 - [Type Hinting en PHP - Diego Tham](https://github.com/diegotham/certificacion-php/blob/master/8-Object-Oriented-Programming/8-type-hinting-en-php.md)
 - [In PHP, function parameters - dev.to](https://dev.to/mainick/in-php-function-parameters-3ne0)
 - [Return Types in PHP - dev.to](https://dev.to/karleb/return-types-in-php-3fip)
+- [Consultar bases de Datos en MySQL - Kingsta](https://kinsta.com/es/blog/listar-bases-de-datos-mysql/)
+- [Sobre Collation y Charset en MySQL - Unreal 4B](https://blog.unreal4u.com/2012/08/sobre-collation-y-charset-en-mysql/)
+- [¿Qué es NoSQL? - MongoDB](https://www.mongodb.com/es/resources/basics/databases/nosql-explained)
 
 
 **Nota:** Algunos de los recursos no poseen una traducción _oficial_ al español

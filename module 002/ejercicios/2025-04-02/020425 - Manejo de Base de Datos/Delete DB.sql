@@ -1,0 +1,7 @@
+DROP DATABASE prueba_1;
+DROP DATABASE prueba_2;
+DROP DATABASE prueba_3;
+DROP DATABASE prueba_4;
+
+DROP DATABASE nueva;
+DROP DATABASE antigua;

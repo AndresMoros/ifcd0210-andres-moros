@@ -1,0 +1,1 @@
+insert into estudiante values("Z1371259G", "Andrés", "Moros", "640980734", 21);
