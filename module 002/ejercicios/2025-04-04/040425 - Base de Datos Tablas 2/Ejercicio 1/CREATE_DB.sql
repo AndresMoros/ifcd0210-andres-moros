@@ -1,0 +1,2 @@
+CREATE DATABASE PRODUCTOS;
+USE productos;

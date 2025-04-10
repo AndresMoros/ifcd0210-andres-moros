@@ -63,7 +63,8 @@ Esta es una lista de los recursos y herramientas que he usado personalmente para
 - [Consultar bases de Datos en MySQL - Kingsta](https://kinsta.com/es/blog/listar-bases-de-datos-mysql/)
 - [Sobre Collation y Charset en MySQL - Unreal 4B](https://blog.unreal4u.com/2012/08/sobre-collation-y-charset-en-mysql/)
 - [¿Qué es NoSQL? - MongoDB](https://www.mongodb.com/es/resources/basics/databases/nosql-explained)
-
+- [Entity Relationship (ER) diagrams guide - Nulab](https://nulab.com/learn/software-development/entity-relationship-diagrams-guide/)
+- [ER diagrams vs. EER diagrams: what’s the difference?](https://medium.com/nulab/er-diagrams-vs-eer-diagrams-whats-the-difference-1847e895ee10)
 
 **Nota:** Algunos de los recursos no poseen una traducción _oficial_ al español
 ### Herramientas
@@ -73,6 +74,8 @@ Esta es una lista de los recursos y herramientas que he usado personalmente para
 - [RunJS - Web Version (free)](https://runjs.app/play)
 - [Obsidian](https://obsidian.md/)
 - [Color Wheel - Adobe Color](https://color.adobe.com/es/create/color-wheel)
+- [draw.io](https://app.diagrams.net/)
+
 ## Ficha técnica oficial
 
 [Boletín Oficial del Estado](https://sede.sepe.gob.es/es/portaltrabaja/resources/pdf/especialidades/IFCD0210.pdf)
