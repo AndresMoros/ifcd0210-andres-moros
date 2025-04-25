@@ -90,7 +90,7 @@
     <?= $res4 ?>
     <hr>
     <h1>Ejercicio 5</h1>
-    <?= "Hola mundo" ?>
+    <?= findWord($phrases, $words) ?>
     <hr>
 </body>
 

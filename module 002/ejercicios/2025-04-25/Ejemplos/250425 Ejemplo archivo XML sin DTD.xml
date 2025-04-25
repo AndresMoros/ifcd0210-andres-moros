@@ -1,0 +1,32 @@
+﻿<?xml version = "1.0" encoding = "UTF-8" ?>
+
+<!DOCTYPE agenda SYSTEM "agenda.dtd">
+<!--<!DOCTYPE agenda SYSTEM "agendav.dtd">-->
+
+<agenda>
+	<persona>
+		<nombre alias = "luisito" >
+			Luis
+		</nombre>
+		<apellido>
+			López;
+		</apellido>
+		<teléfono>
+			324234324
+		</teléfono>
+	</persona>
+	<persona>
+		<nombre>
+			Ana
+		</nombre>
+		<apellido>
+			Gómez
+		</apellido>
+		<teléfono>
+			324233422
+		</teléfono>
+	</persona>
+</agenda>
+
+	
+		

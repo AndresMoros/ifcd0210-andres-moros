@@ -1,0 +1,86 @@
+<!-- Ejercicio XML Bien Formado 1.
+• Corrige los errores de estos documentos XML para considerar que están bien
+formados.
+• Guarda la solución en un archivo XML.
+• Alguna corrección puede implicar añadir alguna etiqueta nueva no existente. Si
+es así, debe tener relación con el contenido del documento.
+• Corregir manualmente, luego se pude comprobar si está bien formado con
+algún programa como XML Copy Editor. -->
+<!DOCTYPE xml>
+
+<?xml version="1.0" encoding="UTF-8"?>
+
+<deportistas>
+    <deportista>
+        <deporte area="Atletismo" />
+        <nombre>Jesse Owens</nombre>
+    </deportista>
+    <deportista>
+        <deporte area="Natación" />
+        <nombre>Mark Spitz</nombre>
+    </deportista>
+</deportistas>
+
+<!-- Ejercicio 2. -->
+
+<peliculas>
+    <pelicula>
+        <titulo>Con faldas y a lo loco</titulo>
+        <director>Billy Wilder</director>
+        <actores>
+            <actor>Jack Lemmon</actor>
+        </actores>
+    </pelicula>
+    <pelicula>
+        <titulo>Sopa de ganso</titulo>
+        <director>Leo McCarey</director>
+        <actores>
+            <actor>Groucho Marx</actor>
+        </actores>
+    </pelicula>
+</peliculas>
+
+<!-- Ejercicio 3 -->
+<texto>
+    <titulo>
+        XML explicado a los niños
+    </titulo>
+    <parrafo> El <abreviatura>XML</abreviatura>define cómo crear lenguajes de marcas. </parrafo>
+    <parrafo>
+        Las marcas se añaden a un documento de texto para añadir información.
+    </parrafo>
+    <enlace link="www.example.org" />
+    <!-- <http:>www.example.org</http:> -->
+</texto>
+
+<!-- Ejercicio 4. -->
+<geografia_mundial>
+<paises>
+    <pais>
+        <nombre>España</nombre>
+        <continente>Europa</continente>
+        <capital nombre="Madrid" />
+    </pais>
+</paises>
+</geografia>
+
+<!-- Ejercicio 5. -->
+<programas>
+    <programa nombre="Firefox" licencia="GPL MPL" />
+    <programa nombre="LibreOffice" licencia="LGPL" />
+    <programa nombre="Inkscape" licencia="GPL" />
+</programas>
+
+<!-- Ejercicio 6. -->
+<mundiales-de-futbol>
+    <mundial>
+        <fecha año="1982" />
+        <pais nombre="España" />
+    </mundial>
+</mundiales-de-futbol>
+
+<!-- Ejercicio 7. -->
+<mediosDeTransporte>
+    <bicicleta velocidad="60 km/h" velocidad_maxima="80 km/h" />
+    <patinete velocidad="25 km/h" velocidad_maxima="50 km/h" />
+</mediosDeTransporte>

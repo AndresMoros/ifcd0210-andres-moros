@@ -1,0 +1,147 @@
+<!DOCTYPE root [
+
+    <!ELEMENT root ANY>
+
+    <!-- Ejercicio 1 -->
+    <!ELEMENT numeros (numero)>
+    <!ELEMENT numero (#PCDATA)>
+
+    <!-- Ejercicio 2 -->
+    <!ELEMENT colores (color*)>
+    <!ELEMENT color (#PCDATA)>
+
+    <!--Ejercicio
+    3 -->
+    <!ELEMENT coches EMPTY>
+
+    <!-- Ejercicio 4 -->
+    <!ELEMENT escritores (
+        escritor+
+    )>
+    <!ELEMENT escritor (
+        nombre,
+        genero_literario
+    )>
+    <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT genero_literario (#PCDATA)>
+
+    <!-- Ejercicio 5 -->
+    <!ELEMENT musica (musico+)>
+    <!ELEMENT musico (
+        artista?,
+        grupo?,
+        estilo*,
+        fecha_formacion?
+    )>
+    <!ELEMENT artista (#PCDATA)>
+    <!ELEMENT grupo (#PCDATA)>
+    <!ELEMENT fecha_formacion (#PCDATA)>
+    <!ELEMENT estilo (#PCDATA)>
+
+    <!-- Ejercicio 6 -->
+    <!ELEMENT directorio_emergencias (contacto+)>
+    <!ELEMENT contacto (
+        nombre_cont,
+        telefono_fijo+,
+        movil*
+    )>
+    <!ELEMENT nombre_cont (#PCDATA)>
+    <!ELEMENT telefono_fijo (#PCDATA)>
+    <!ELEMENT movil (#PCDATA)>
+    <!ATTLIST movil num CDATA #IMPLIED>
+
+    <!-- Ejercicio 7 -->
+    <!ELEMENT astronomia (objeto_astronomico+)>
+    <!ELEMENT objeto_astronomico (
+        planeta | 
+        satelite | 
+        asteroide | estrella | 
+        nebulosa | agujeroNegro
+        )>
+    <!ELEMENT planeta (#PCDATA)>
+    <!ELEMENT satelite (#PCDATA)>
+    <!ELEMENT asteroide (#PCDATA)>
+    <!ELEMENT estrella (#PCDATA)>
+    <!ELEMENT nebulosa (#PCDATA)>
+    <!ELEMENT agujeroNegro (#PCDATA)>
+    
+]>
+
+
+<root>
+    <!-- Ejercicio 1 -->
+    <numeros>
+        <numero>5</numero>
+    </numeros>
+
+    <!-- Ejercicio 2 -->
+    <colores>
+        <color>Rojo</color>
+        <color>Verde</color>
+        <color>Azul</color>
+    </colores>
+
+    <!-- Ejercicio 3 -->
+    <coches></coches>
+
+    <!-- Ejercicio 4 -->
+    <escritores>
+        <escritor>
+            <nombre>Angel David Revilla</nombre>
+            <genero_literario>Horror</genero_literario>
+        </escritor>
+        <escritor>
+            <nombre>Luis Góngora</nombre>
+            <genero_literario>Poesía</genero_literario>
+        </escritor>
+    </escritores>
+
+    <!-- Ejercicio 5 -->
+    <musica>
+        <musico>
+            <artista>Canserbero</artista>
+            <estilo>Hip-Hop</estilo>
+        </musico>
+        <musico>
+            <grupo>Caramalos de Cianuro</grupo>
+            <estilo>Rock</estilo>
+            <fecha_formacion>1989</fecha_formacion>
+        </musico>
+    </musica>
+
+    <!-- Ejercicio 6 -->
+    <directorio_emergencias>
+        <contacto>
+            <nombre_cont>Policía</nombre_cont>
+            <telefono_fijo>091</telefono_fijo>
+        </contacto>
+        <contacto>
+            <nombre_cont>Emergencias</nombre_cont>
+            <telefono_fijo>112</telefono_fijo>
+            <telefono_fijo>061</telefono_fijo>
+            <movil />
+        </contacto>
+    </directorio_emergencias>
+
+    <!-- Ejercicio 7 -->
+    <astronomia>
+        <objeto_astronomico>
+            <planeta>Saturno</planeta>
+        </objeto_astronomico>
+        <objeto_astronomico>
+            <satelite>Encélado</satelite>
+        </objeto_astronomico>
+        <objeto_astronomico>
+            <asteroide>Vesta</asteroide>
+        </objeto_astronomico>
+        <objeto_astronomico>
+            <estrella>Bellatrix</estrella>
+        </objeto_astronomico>
+        <objeto_astronomico>
+            <nebulosa>Nebulosa de la Tarántula</nebulosa>
+        </objeto_astronomico>
+        <objeto_astronomico>
+            <agujeroNegro>Sagitario A*</agujeroNegro>
+        </objeto_astronomico>
+    </astronomia>
+</root>

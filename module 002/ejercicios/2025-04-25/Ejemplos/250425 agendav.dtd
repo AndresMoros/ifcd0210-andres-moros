@@ -1,0 +1,8 @@
+	  
+		
+		<!ELEMENT agenda (persona+)>
+		<!ELEMENT persona (nombre,apellido,teléfono)>
+		<!ELEMENT nombre (#PCDATA)>
+		<!ATTLIST nombre alias NMTOKEN #IMPLIED>
+		<!ELEMENT apellido (#PCDATA)>
+		<!ELEMENT teléfono (#PCDATA)>

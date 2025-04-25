@@ -65,6 +65,8 @@ Esta es una lista de los recursos y herramientas que he usado personalmente para
 - [¿Qué es NoSQL? - MongoDB](https://www.mongodb.com/es/resources/basics/databases/nosql-explained)
 - [Entity Relationship (ER) diagrams guide - Nulab](https://nulab.com/learn/software-development/entity-relationship-diagrams-guide/)
 - [ER diagrams vs. EER diagrams: what’s the difference?](https://medium.com/nulab/er-diagrams-vs-eer-diagrams-whats-the-difference-1847e895ee10)
+- [MySQL: Modificando los datos de una tabla - El Club Del Autodidacta](http://elclubdelautodidacta.es/wp/2012/08/mysql-modificando-los-datos-de-una-tabla/)
+- [Privileges Provided by MySQL - dev.mysql.com](https://dev.mysql.com/doc/refman/8.4/en/privileges-provided.html)
 
 **Nota:** Algunos de los recursos no poseen una traducción _oficial_ al español
 ### Herramientas

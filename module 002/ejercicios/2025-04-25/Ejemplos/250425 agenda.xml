@@ -1,0 +1,60 @@
+﻿<?xml version = "1.0" encoding = "UTF-8" standalone ="no"?>
+
+
+	<!-- 1. Ejemplo DTD en archivo externo. Atributo xml standalone con valor "no". -->
+	
+		<!DOCTYPE agenda SYSTEM "agenda.dtd" > 
+	
+	<!-- 2. Ejemplo DTD interno en archivo XML. Atributo xml standalone con valor "yes". -->
+	
+		<!--
+			<!DOCTYPE agenda [
+				<!ELEMENT agenda (persona*)>
+				<!ELEMENT persona (nombre,apellido,teléfono)> 
+				<!ELEMENT nombre (#PCDATA)>
+				<!ATTLIST nombre alias CDATA "">
+				<!ELEMENT apellido (#PCDATA)>
+				<!ELEMENT teléfono (#PCDATA)>
+			]>
+		-->
+		
+	<!-- 3. Ejemplo DTD híbrido. Atributo xml standalone con valor "no". -->
+	
+		<!--
+			<!DOCTYPE agenda SYSTEM "agenda.dtd" [
+				<!ELEMENT agenda (persona*)>
+				<!ELEMENT persona (nombre,apellido,teléfono+,email+)>
+			]>
+		-->
+
+	<agenda>
+		<persona>
+			<nombre alias = "luisito" >
+				Luis
+			</nombre>
+			<apellido>
+				López;
+			</apellido>
+			<teléfono>
+				324234324
+			</teléfono>
+		</persona>
+		<persona>
+			<apellido>
+				Gómez
+			</apellido>
+			<nombre>
+				Ana
+			</nombre>
+			
+			<teléfono>
+				324233422
+			</teléfono>
+		</persona>
+	</agenda>
+
+	
+		
+
+	
+		

@@ -1,0 +1,43 @@
+﻿<?xml version = "1.0" encoding = "UTF-8" ?>
+
+<!DOCTYPE agenda [
+  <!ELEMENT agenda (persona*)>
+  <!ELEMENT persona (nombre,apellido,teléfono)> 
+  <!ELEMENT nombre (#PCDATA)>
+	<!ATTLIST nombre alias CDATA "">
+	<!ATTLIST nombre codigo CDATA "Desconocido">
+  <!ELEMENT apellido (#PCDATA)>
+  <!ELEMENT teléfono (#PCDATA)>]>
+  
+  
+<agenda>
+	<persona>
+		<nombre alias = "luisito" codigo ="123ed4" >
+			Luis
+		</nombre>
+		
+		<apellido>
+			López
+		</apellido>
+		<teléfono>
+			324234324
+		</teléfono>
+	</persona>
+	<persona>
+		<nombre>
+			Ana
+		</nombre>
+		<apellido>
+			Gómez
+		</apellido>
+		<teléfono>
+			324233422
+		</teléfono>
+	</persona>
+</agenda>
+
+	
+		
+
+	
+		
