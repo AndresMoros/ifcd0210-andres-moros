@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<morosos 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="morosos.xsd">
+
+    <vecino>
+        <registro>1</registro>
+        <nombre estado="Desempleado">Antonio</nombre>
+        <direccion>C/ Orión, 10 5 A</direccion>
+        <cantidad>220.50</cantidad>
+        <fecha>2024-08-01</fecha>
+        <concepto-debido>Piscina</concepto-debido>
+    </vecino>
+
+    <vecino>
+        <registro>2</registro>
+        <nombre estado="Trabajador">Eva</nombre>
+        <direccion>C/ Sirio, 24 2 D</direccion>
+        <cantidad>140.00</cantidad>
+        <fecha>2024-07-01</fecha>
+        <concepto-debido>Comunidad</concepto-debido>
+    </vecino>
+
+    <vecino>
+        <registro>3</registro>
+        <nombre estado="Estudiante">Juan</nombre>
+        <direccion>C/ Bellatrix, 32 6 A</direccion>
+        <cantidad>180.40</cantidad>
+        <fecha>2024-08-01</fecha>
+        <concepto-debido>Piscina</concepto-debido>
+    </vecino>
+
+    <vecino>
+        <registro>4</registro>
+        <nombre estado="Trabajador">Rosa</nombre>
+        <direccion>C/ Vega, 14 2 C</direccion>
+        <cantidad>200.00</cantidad>
+        <fecha>2024-07-01</fecha>
+        <concepto-debido>Piscina</concepto-debido>
+    </vecino>
+
+    <vecino>
+        <registro>5</registro>
+        <nombre estado="Estudiante">Luis Miguel</nombre>
+        <direccion>C/ Deneb, 37 1 D</direccion>
+        <cantidad>84.90</cantidad>
+        <fecha>2024-07-01</fecha>
+        <concepto-debido>Ascensor</concepto-debido>
+    </vecino>
+</morosos>

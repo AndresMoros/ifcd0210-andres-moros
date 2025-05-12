@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+	<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+		  <xs:element name="clientes">
+			<xs:complexType>
+			  <xs:sequence>
+				<xs:element name="nombre" type="nombrecitos" maxOccurs="unbounded">
+				   <xs:complexType>
+					  <xs:attribute name="alias" type="mote"/>
+				   </xs:complexType>
+				</xs:element>
+			  </xs:sequence>
+			</xs:complexType>
+		  </xs:element>
+		  
+		  <!-- Tipo para elemento o etiqueta. -->
+		  
+		  <xs:simpleType name="nombrecitos">
+			<xs:restriction base="xs:string">
+			  <xs:pattern value="[A-Z]([a-z])+"/>
+			</xs:restriction>
+		  </xs:simpleType>
+		  
+		  <!-- Tipo para atributo. -->
+
+		  <xs:simpleType name="mote">
+			 <xs:restriction base="xs:string">
+				<xs:pattern value="tonto([0-9]){2}"/>
+			</xs:restriction>
+		  </xs:simpleType>
+
+	</xs:schema>

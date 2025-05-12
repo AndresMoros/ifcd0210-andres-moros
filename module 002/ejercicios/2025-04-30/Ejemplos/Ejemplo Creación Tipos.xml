@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	
+	<clientes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="Ejemplo Creación Tipos.xsd">
+	
+	   <nombre alias = "tonto01">Juan</nombre>
+	   <nombre alias = "tonto02">Antonia</nombre>
+	   <nombre alias = "tonto03">Margarita</nombre>
+	  	   
+	</clientes>

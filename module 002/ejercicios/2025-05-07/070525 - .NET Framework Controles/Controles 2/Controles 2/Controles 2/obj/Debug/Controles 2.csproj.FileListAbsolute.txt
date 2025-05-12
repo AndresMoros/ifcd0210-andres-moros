@@ -1,0 +1,10 @@
+E:\ifcd2010-andres-moros\module 002\ejercicios\2025-05-07\070525 - .NET Framework Controles\Controles 2\Controles 2\Controles 2\bin\Debug\Controles 2.exe.config
+E:\ifcd2010-andres-moros\module 002\ejercicios\2025-05-07\070525 - .NET Framework Controles\Controles 2\Controles 2\Controles 2\bin\Debug\Controles 2.exe
+E:\ifcd2010-andres-moros\module 002\ejercicios\2025-05-07\070525 - .NET Framework Controles\Controles 2\Controles 2\Controles 2\bin\Debug\Controles 2.pdb
+E:\ifcd2010-andres-moros\module 002\ejercicios\2025-05-07\070525 - .NET Framework Controles\Controles 2\Controles 2\Controles 2\obj\Debug\Controles 2.csproj.AssemblyReference.cache
+E:\ifcd2010-andres-moros\module 002\ejercicios\2025-05-07\070525 - .NET Framework Controles\Controles 2\Controles 2\Controles 2\obj\Debug\Controles_2.Form1.resources
+E:\ifcd2010-andres-moros\module 002\ejercicios\2025-05-07\070525 - .NET Framework Controles\Controles 2\Controles 2\Controles 2\obj\Debug\Controles_2.Properties.Resources.resources
+E:\ifcd2010-andres-moros\module 002\ejercicios\2025-05-07\070525 - .NET Framework Controles\Controles 2\Controles 2\Controles 2\obj\Debug\Controles 2.csproj.GenerateResource.cache
+E:\ifcd2010-andres-moros\module 002\ejercicios\2025-05-07\070525 - .NET Framework Controles\Controles 2\Controles 2\Controles 2\obj\Debug\Controles 2.csproj.CoreCompileInputs.cache
+E:\ifcd2010-andres-moros\module 002\ejercicios\2025-05-07\070525 - .NET Framework Controles\Controles 2\Controles 2\Controles 2\obj\Debug\Controles 2.exe
+E:\ifcd2010-andres-moros\module 002\ejercicios\2025-05-07\070525 - .NET Framework Controles\Controles 2\Controles 2\Controles 2\obj\Debug\Controles 2.pdb

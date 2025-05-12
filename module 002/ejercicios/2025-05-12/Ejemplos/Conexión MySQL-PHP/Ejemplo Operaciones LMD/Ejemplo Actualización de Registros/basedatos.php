@@ -1,0 +1,103 @@
+	
+	
+	<?php
+		// Actualización de registros usando una clase para conectarse a una base de datos.
+		
+		// Carga del archivo con la clase de conexión a base de datos a utilizar.
+				
+			include("conexion.php");
+		
+		// Carga en variables de los valores necesarios para la conexión a utilizar para inicializar el objeto a crear.
+		
+			$a = "localhost";
+			$b = "root";
+			$c = "";
+			$d = "compras";
+		
+		// Creación de objetos de conexion a base de datos.
+		
+			$clientes = new ConexionBD($a,$b,$c,$d);
+			//$clientes = new ConexionBD("localhost","root","","compras"); // También pueden incluirse directamente los valores para inicializar el objeto sin necesidad de cargarlos en variables.
+			
+		// Actualización de registros buscando previamente con una condición el que se va a modificar.
+		
+		//Opción 1. No se conoce el dato criterio para la condición de actualización.
+		
+			// Variante 1. Usando variables como argumentos de la función de consulta (consultarBD()), para las operaciones de manipulación de datos (consulta y actualización).
+			
+			/*	
+				$aModificar = "select * from usuarios where nombre = 'Rosa'";
+				$clientes->consultarBD($aModificar); // Consulta ejecutando el método consultarBD(),a través del objeto $clientes.
+				$fila = $clientes->registrosEncontrados(); //Cargado de los registros encontrados en el array $fila.
+				$codigo = $fila["codigo"]; //Carga, desde el array asociativo $fila, del valor en en campo código.
+				$actualizar = "update usuarios set nombre = 'María Rosa' where codigo = '$codigo' ";
+				$clientes->consultarBD($actualizar); // Actualización ejecutando el método consultarBD(),a través del objeto $clientes.
+				$nueva_consulta = "select * from usuarios";
+				$clientes->consultarBD($nueva_consulta);// Nueva consulta para ver los registros actualizados y no actualizados, ejecutando el método consultarBD(),a través del objeto $clientes.
+			*/	
+			
+			// Variante 2. Usando directamente las operaciones de manipulación de datos (consulta y actualización), como argumentos de la función de consulta (consultarBD()).
+			
+			/*
+				$clientes->consultarBD("select * from usuarios where nombre = 'Rosa'"); // Consulta ejecutando el método consultarBD(), a través del objeto $clientes.
+				$fila = $clientes->registrosEncontrados(); //Cargado de los registros encontrados en el array $fila.
+				$codigo = $fila["codigo"]; //Carga, desde el array asociativo $fila, del valor en en campo código.
+				$clientes->consultarBD("update usuarios set nombre = 'María Rosa' where codigo = '$codigo' "); // Actualización ejecutando el método consultarBD(),a través del objeto $clientes.
+				$clientes->consultarBD("select * from usuarios"); // Nueva consulta para ver los registros actualizados y no actualizados, ejecutando el método consultarBD(),a través del objeto $clientes.
+			*/				
+		
+		//Opción 2. Se conoce el dato criterio para la condición de actualización.
+	
+				
+			// Variante 1. Usando variables como argumentos de la función de consulta (consultarBD()), para las operaciones de manipulación de datos (consulta y actualización).
+			/*	
+				$actualizar = "update usuarios set nombre = 'María Rosa' where codigo = '20A'";
+				$clientes->consultarBD($actualizar); // Actualización ejecutando el método consultarBD(), a través del objeto $clientes con dato criterio conocido para la condición.
+				$nueva_consulta = "select * from usuarios";
+				$clientes->consultarBD($nueva_consulta);// Nueva consulta para ver los registros actualizados y no actualizados, ejecutando el método consultarBD(),a través del objeto $clientes.
+			*/	
+			// Variante 2. Usando directamente las operaciones de manipulación de datos (consulta y actualización), como argumentos de la función de consulta (consultarBD()).	
+			
+				$clientes->consultarBD("update usuarios set nombre = 'María Rosa' where codigo = '20A' "); // Actualización ejecutando el método consultarBD(), a través del objeto $clientes con dato criterio conocido para la condición.
+				$clientes->consultarBD("select * from usuarios"); // Nueva consulta para ver los registros actualizados y no actualizados, ejecutando el método consultarBD(),a través del objeto $clientes.
+	
+	?>
+
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Clase Conexion PHP - Base de Datos</title>
+		<meta charset="UTF-8"/>
+	
+	</head>
+	<body>
+		
+		<h1 style="text-align:center;">Listado de Usuarios tras Actualización</h1>
+		<table style="text-align:center; font-size:18px; margin:auto; width:50%" border="1">
+		    <tr>
+			  <td style="text-align:center; ">Código de Usuario</td>
+			  <td style="text-align:center; ">Nombre</td>
+			  <td style="text-align:center; ">Apellidos</td>
+			  <td style="text-align:center; ">Cuenta</td>
+		    </tr>
+			<?php
+				while ($registro = $clientes->registrosEncontrados())
+				{ //Empieza código del bucle while.
+			?> 
+			
+		    <tr>
+			  <td style="text-align:center; "><?php echo $registro["codigo"]; ?></td>
+			  <td style="text-align:center; "><?php echo $registro["nombre"]; ?></td>
+			  <td style="text-align:center; "><?php echo $registro["apellidos"]; ?></td>
+			  <td style="text-align:center; "><?php echo $registro["cuenta"]; ?></td>
+		    </tr>
+			<?php }//Termina código del bucle while.
+			
+						
+			?>
+			
+		
+	</body>
+	
+</html>

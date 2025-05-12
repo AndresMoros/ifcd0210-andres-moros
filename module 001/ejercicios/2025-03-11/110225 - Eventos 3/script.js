@@ -23,13 +23,6 @@ document.forms[0].elements['form_1-btn'].addEventListener('click', (e) => {
     output.innerText = 'Datos enviados'
 });
 
-
-
-
-
-
-
-
 document.forms[0].elements['form_1-btn'].addEventListener('click', (e) => {
     e.preventDefault();
     output = document.getElementById("output-name");

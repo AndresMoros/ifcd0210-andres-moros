@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="root">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="ejercicio1">
+                </xs:element>
+                <xs:element name="ejercicio2"></xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <!-- Ejercicio 1 -->
+    <xs:element name="ejercicio1"> 
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="localidad" type="xs:string"></xs:element>
+                <xs:element name="titulo" type="xs:string"></xs:element>
+                <xs:element name="fecha-nacimiento" type="xs:date"></xs:element>
+                <xs:element name="hora_primera_sesion" type="xs:time"></xs:element>
+                <xs:element name="temperatura" type="xs:int"></xs:element>
+                <xs:element name="edad" type="xs:int"></xs:element>
+                <xs:element name="nota" type="xs:float"></xs:element>
+                <xs:element name="precio" type="xs:double"></xs:element>
+                <xs:element name="prestado" type="xs:boolean"></xs:element>
+                <xs:element name="apto" type="xs:boolean"></xs:element>
+                <xs:element name="sitio-web" type="xs:anyURI"></xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <!-- Ejercicio 2 -->
+    <xs:element name="ejercicio2">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="color" maxOccurs="unbounded" type="xs:string"></xs:element>
+                <xs:element name="color" minOccurs="1" maxOccurs="3" type="xs:string"></xs:element>
+
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+</xs:schema>

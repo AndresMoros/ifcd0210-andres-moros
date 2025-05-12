@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Añadir mediante extensión un atributo a un elemento simple. Atributo "divisa" a elemento "saldo". -->
+	
+	<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	  <xs:element name="saldos">
+		<xs:complexType>
+		  <xs:sequence>
+			<xs:element name="saldo" maxOccurs="unbounded">
+			  <xs:complexType>
+				<xs:simpleContent>
+				  <xs:extension base="xs:decimal"> <!-- Tipo del valor del elemento (saldo), al que se le añade el atributo (divisa). -->
+					<xs:attribute name="divisa" type="xs:string" use ="required"/> <!-- Tipo del valor del atributo (divisa). -->
+				  </xs:extension>
+				</xs:simpleContent>
+			  </xs:complexType>
+			</xs:element>
+		  </xs:sequence>
+		</xs:complexType>
+	  </xs:element>
+	</xs:schema>

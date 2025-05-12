@@ -1,0 +1,10 @@
+E:\ifcd2010-andres-moros\module 002\ejercicios\2025-05-07\070525  - .NET Framwork 1\NET Framework 1\NET Framework 1\bin\Debug\NET Framework 1.exe.config
+E:\ifcd2010-andres-moros\module 002\ejercicios\2025-05-07\070525  - .NET Framwork 1\NET Framework 1\NET Framework 1\bin\Debug\NET Framework 1.exe
+E:\ifcd2010-andres-moros\module 002\ejercicios\2025-05-07\070525  - .NET Framwork 1\NET Framework 1\NET Framework 1\bin\Debug\NET Framework 1.pdb
+E:\ifcd2010-andres-moros\module 002\ejercicios\2025-05-07\070525  - .NET Framwork 1\NET Framework 1\NET Framework 1\obj\Debug\NET Framework 1.csproj.AssemblyReference.cache
+E:\ifcd2010-andres-moros\module 002\ejercicios\2025-05-07\070525  - .NET Framwork 1\NET Framework 1\NET Framework 1\obj\Debug\NET_Framework_1.Properties.Resources.resources
+E:\ifcd2010-andres-moros\module 002\ejercicios\2025-05-07\070525  - .NET Framwork 1\NET Framework 1\NET Framework 1\obj\Debug\NET_Framework_1.vetana_prueba.resources
+E:\ifcd2010-andres-moros\module 002\ejercicios\2025-05-07\070525  - .NET Framwork 1\NET Framework 1\NET Framework 1\obj\Debug\NET Framework 1.csproj.GenerateResource.cache
+E:\ifcd2010-andres-moros\module 002\ejercicios\2025-05-07\070525  - .NET Framwork 1\NET Framework 1\NET Framework 1\obj\Debug\NET Framework 1.csproj.CoreCompileInputs.cache
+E:\ifcd2010-andres-moros\module 002\ejercicios\2025-05-07\070525  - .NET Framwork 1\NET Framework 1\NET Framework 1\obj\Debug\NET Framework 1.exe
+E:\ifcd2010-andres-moros\module 002\ejercicios\2025-05-07\070525  - .NET Framwork 1\NET Framework 1\NET Framework 1\obj\Debug\NET Framework 1.pdb

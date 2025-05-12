@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<lugares
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="lugares.xsd">
+    <ubicacion zona="912">Norte</ubicacion>
+    <ubicacion zona="122">Sur</ubicacion>
+    <ubicacion zona="621">Este</ubicacion>
+    <ubicacion zona="888">Oeste</ubicacion>
+</lugares>

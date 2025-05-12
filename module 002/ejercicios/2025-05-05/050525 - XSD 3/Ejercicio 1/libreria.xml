@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<libreria xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="libreria.xsd">
+    <libro>
+        <titulo>El Festival de la Blasfemia</titulo>
+        <autor>Angel David Revilla</autor>
+        <genero>Horror</genero>
+        <fecha-publicacion>2025</fecha-publicacion>
+    </libro>
+    <libro>
+        <titulo>Christine</titulo>
+        <autor>Stephen King</autor>
+        <genero>Horror</genero>
+        <fecha-publicacion>1983</fecha-publicacion>
+    </libro>
+    <libro>
+        <titulo>Cuéntame tus sueños</titulo>
+        <autor>Sidney Sheldon</autor>
+        <genero>Novela</genero>
+        <fecha-publicacion>1999</fecha-publicacion>
+    </libro>
+    <libro>
+        <titulo>El Psicoanalista</titulo>
+        <autor>John Katzenbach</autor>
+        <genero>Thriller</genero>
+        <fecha-publicacion>2003</fecha-publicacion>
+    </libro>
+    <libro>
+        <titulo>La chica del tren</titulo>
+        <autor>Paula Hawkins</autor>
+        <genero>Suspenso</genero>
+        <genero>Novela</genero>
+        <fecha-publicacion>2016</fecha-publicacion>
+    </libro>
+</libreria>

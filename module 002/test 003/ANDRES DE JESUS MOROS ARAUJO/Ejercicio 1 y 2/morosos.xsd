@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="morosos">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="vecino" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+
+                            <xs:element name="registro" type="xs:positiveInteger" />
+
+                            <xs:element name="nombre">
+                                <xs:complexType>
+                                    <xs:simpleContent>
+                                        <xs:extension base="xs:string">
+                                            <xs:attribute name="estado">
+                                                <xs:simpleType>
+                                                    <xs:restriction base="xs:string">
+                                                        <xs:pattern value="Desempleado|Trabajador|Estudiante"></xs:pattern>
+                                                    </xs:restriction>
+                                                </xs:simpleType>    
+                                            </xs:attribute>
+                                        </xs:extension>
+                                    </xs:simpleContent>
+                                </xs:complexType>
+                            </xs:element>
+
+                            <xs:element name="direccion" type="xs:string"/>
+
+                            <xs:element name="cantidad" type="xs:double"/>
+
+                            <xs:element name="fecha">
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:date">
+                                        <xs:minInclusive value="2024-01-01"></xs:minInclusive>
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:element>
+
+                            <xs:element name="concepto-debido">
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:string">
+                                        <xs:pattern value="Ascensor|Piscina|Comunidad"></xs:pattern>
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:element>
+                            
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

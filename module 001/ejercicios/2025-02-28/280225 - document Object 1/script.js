@@ -1,6 +1,6 @@
 // Ejercicio 1 ---------------------------------------------------
 let socios = [];
-// Gener aun array con posiciones vacias para la posteriro asignación de valores
+// Gener aun array con posiciones vacias para la posterior asignación de valores
 
 for (let i = 0; i < document.querySelectorAll("#lista-uno li").length; i++) {
   socios[i] = document.querySelectorAll("#lista-uno li")[i].textContent;

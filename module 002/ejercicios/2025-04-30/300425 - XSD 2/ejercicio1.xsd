@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="datos">
+        <xs:complexType>
+            <xs:sequence>
+
+                <!-- Elemento nombre -->
+                <xs:element name="nombre">
+                    <xs:simpleType>
+                        <xs:restriction base="xs:string">
+                            <xs:minLength value="3" />
+                            <xs:maxLength value="30" />
+                        </xs:restriction>
+                    </xs:simpleType>
+                </xs:element>
+
+                <!-- Elemento direcicción -->
+                 <xs:element name="direccion" fixed="Sin dirección">
+                    <xs:simpleType>
+                        <xs:restriction base="xs:string">
+                            <xs:maxLength value="50"/>
+                        </xs:restriction>
+                    </xs:simpleType>
+                 </xs:element>
+
+                 <!-- Elemento teléfono -->
+
+                 <xs:element name="telefono">
+                    <xs:simpleType>
+                        <xs:restriction base="xs:string">
+                            <xs:pattern value="[0-9]{9}"/>
+                        </xs:restriction>
+                    </xs:simpleType>
+                 </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

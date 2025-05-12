@@ -1,0 +1,20 @@
+form {
+    background: gainsboro;
+    width: min-content;
+    padding: 2rem;
+}
+
+form > br {
+    display: block;
+    margin-bottom: 1rem;
+}
+
+form > input[type="reset"] {
+    background-color: red;
+    color: #fff;
+}
+
+form > input[type="submit"] {
+    background-color: greenyellow;
+    color: #000;
+}

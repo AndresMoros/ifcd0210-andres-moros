@@ -1,0 +1,54 @@
+
+/* Hoja de estilos para ejemplo Identificación de Usuarios. Conexión PHP-MySQL.*/
+			
+			body{
+				background-color:orange;
+				font-family:calibri,sans-serif;
+			}
+			#contenedor{
+				display:flex;
+				justify-content:space-around;
+				align-items:center;
+				margin:10px;
+				gap:20px;
+			}
+			.ejercicios{
+				width:40%;
+				border:1px solid #000;
+				border-radius:5px;
+				box-shadow:5px 5px 2px #333;
+				background-color:#ccc;
+				padding:10px;
+			}
+			div label{
+				float:left;
+				width:45%;
+			}
+			legend,p{
+				font-size:20px;
+			}
+			
+			h1 {
+				text-align:center;
+			}
+				
+			legend, label, #b1,#b2{
+				font-weight:bold;
+			}
+			
+			#b1,#b2{
+				
+				font-size:16px;
+				color:maroon;
+			}					
+			#b2{
+				float:right;
+			}
+			
+/* Estilos para Identificación Errónea. Conexión PHP-MySQL.*/	
+			
+			.error{
+				color:maroon;
+				margin:50px auto;
+				font-size:32px;
+			}

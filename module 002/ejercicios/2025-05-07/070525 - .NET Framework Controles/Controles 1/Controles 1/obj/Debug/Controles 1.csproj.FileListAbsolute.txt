@@ -1,0 +1,10 @@
+E:\ifcd2010-andres-moros\module 002\ejercicios\2025-05-07\070525 - .NET Framework Controles\Controles 1\Controles 1\bin\Debug\Controles 1.exe.config
+E:\ifcd2010-andres-moros\module 002\ejercicios\2025-05-07\070525 - .NET Framework Controles\Controles 1\Controles 1\bin\Debug\Controles 1.exe
+E:\ifcd2010-andres-moros\module 002\ejercicios\2025-05-07\070525 - .NET Framework Controles\Controles 1\Controles 1\bin\Debug\Controles 1.pdb
+E:\ifcd2010-andres-moros\module 002\ejercicios\2025-05-07\070525 - .NET Framework Controles\Controles 1\Controles 1\obj\Debug\Controles 1.csproj.AssemblyReference.cache
+E:\ifcd2010-andres-moros\module 002\ejercicios\2025-05-07\070525 - .NET Framework Controles\Controles 1\Controles 1\obj\Debug\Controles_1.Form1.resources
+E:\ifcd2010-andres-moros\module 002\ejercicios\2025-05-07\070525 - .NET Framework Controles\Controles 1\Controles 1\obj\Debug\Controles_1.Properties.Resources.resources
+E:\ifcd2010-andres-moros\module 002\ejercicios\2025-05-07\070525 - .NET Framework Controles\Controles 1\Controles 1\obj\Debug\Controles 1.csproj.GenerateResource.cache
+E:\ifcd2010-andres-moros\module 002\ejercicios\2025-05-07\070525 - .NET Framework Controles\Controles 1\Controles 1\obj\Debug\Controles 1.csproj.CoreCompileInputs.cache
+E:\ifcd2010-andres-moros\module 002\ejercicios\2025-05-07\070525 - .NET Framework Controles\Controles 1\Controles 1\obj\Debug\Controles 1.exe
+E:\ifcd2010-andres-moros\module 002\ejercicios\2025-05-07\070525 - .NET Framework Controles\Controles 1\Controles 1\obj\Debug\Controles 1.pdb

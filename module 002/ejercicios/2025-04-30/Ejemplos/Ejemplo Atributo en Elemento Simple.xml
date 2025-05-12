@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+	<saldos xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="Ejemplo Atributo en Elemento Simple.xsd">
+	   <saldo codigo = "01">25</saldo>
+	   <saldo divisa = "Dólar">18.20</saldo>
+	   <saldo divisa = "Yen">250.43</saldo>
+	</saldos>

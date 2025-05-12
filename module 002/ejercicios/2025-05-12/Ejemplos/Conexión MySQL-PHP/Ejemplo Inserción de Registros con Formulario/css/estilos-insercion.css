@@ -1,0 +1,21 @@
+
+/* Hoja de estilos para archivo inicio.tml e Identificación Correcta . Conexión PHP-MySQL.*/		
+			
+			body{
+				background-color:orange;
+				font-family:calibri,sans-serif;
+			}
+			.mensaje{
+				width:40%;
+				margin:50px auto;
+				border:1px solid #000;
+				border-radius:5px;
+				box-shadow:5px 5px 2px #333;
+				background-color:#ccc;
+				padding:10px;
+				color:maroon;
+				text-align:center;
+			}
+			h2{
+				text-align:center;
+			}

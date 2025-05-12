@@ -1,0 +1,53 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+  
+     <title>Formulario. Conexión a Base de datos | PHP y MySQL</title>
+     <meta charset="UTF-8">
+	 <link rel="stylesheet" href="css/estilos.css">
+	 
+  </head>
+ 
+	<body>
+		<h1>Inserción de Registros en Base de Datos. PHP - MySQL</h1>
+		<div id ="contenedor">
+			<div class ="ejercicios">
+				<form method = "post" action = "procesar_clientes.php" target = "_blank">
+				<fieldset>
+					<legend>Inserción de Registros</legend>
+					<p>
+						<label>Nombre:</label>
+					</p>
+					<p>	
+						<input type = "text" name = "nombre" size="35">
+					</p>
+					<p>
+						<label>Dirección:</label>
+					<p>	
+						<input type = "text" name = "dir" size="35">
+					</p>	
+					<p>
+						<label>Teléfono:</label>
+					</p>
+					<p>
+						<input type = "tel" name = "tel" size="35">
+					</p>
+					<p>
+						<label>Email:</label>
+					</p>
+					<p>
+						<input type = "email" name = "email" size="35">
+					</p>	
+				</fieldset>
+				<fieldset>
+					<input id ="b1" type="submit" name = "enviar" value="Insertar"> 
+					<input id ="b2" type="reset" name = "limpiar" value="Limpiar">
+				</fieldset>
+					
+				</form>
+			</div>
+		</div>
+	</body>
+ 
+</html>

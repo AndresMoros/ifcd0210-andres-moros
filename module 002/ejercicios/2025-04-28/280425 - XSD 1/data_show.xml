@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="data_def.xsd">
+
+    <!-- Ejercicio 1 -->
+
+    <ejercicio1>
+        <localidad>Valencia</localidad>
+        <titulo>El Señor de los Anillos</titulo>
+        <fecha-nacimiento>2002-01-19</fecha-nacimiento>
+        <hora_primera_sesion>18:29:45</hora_primera_sesion>
+        <temperatura>-20</temperatura>
+        <edad>24</edad>
+        <nota>7.5</nota>
+        <precio>280.99</precio>
+        <prestado>false</prestado>
+        <apto>true</apto>
+        <sitio-web>https://www.misitio.com</sitio-web>
+    </ejercicio1>
+
+    <!-- Ejercicio 2 -->
+
+    
+
+</root>

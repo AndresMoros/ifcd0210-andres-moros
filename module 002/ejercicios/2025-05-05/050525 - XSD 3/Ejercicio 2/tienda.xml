@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<tienda
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="tienda.xsd">
+    <codigo>HR123</codigo>
+    <nombre>Harina Pan</nombre>
+    <precio>8</precio>
+    <cantidad-vendida>2</cantidad-vendida>
+    <fecha-venta>2025-02-23</fecha-venta>
+</tienda>

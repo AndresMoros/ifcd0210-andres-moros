@@ -1,0 +1,45 @@
+
+/* Hoja de estilos para ejemplo Inserción de Registros en una Base de Datos. Conexión PHP-MySQL.*/
+
+			
+			body{
+				background-color:Lavender;
+				font-family:calibri,sans-serif;
+				font-size:18px;
+			}
+			#contenedor{
+				display:flex;
+				justify-content:space-around;
+				margin:10px;
+				gap:20px;
+			}
+			.ejercicios{
+				border:1px solid #000;
+				border-radius:5px;
+				box-shadow:5px 5px 2px #333;
+				background-color:#ccc;
+				padding:10px;
+			}
+						
+			h1{
+				font-weight:bold;
+				text-align:center;
+				color:maroon;
+			}
+			table{
+				text-align:center;
+			}
+			
+			th{
+				font-weight:bold;
+				color:maroon;
+				font-size:20px;
+				width:300px;
+			}
+			td{
+				font-weight:bold;
+			}
+	
+			
+			
+			

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conexión a base de datos con PHP</title>
+</head>
+<body>
+    <div class="content">
+        <h2>Inserción de registros en la base de datos Música</h2>
+        <form action="insert.php" method="post" class="form">
+            <label for="name">Song name</label>
+            <input type="text" id="name" placeholder="e.g. Comando Borracho" maxlength="50" name="song_name">
+            <br>
+            <label for="group_artist">Artist / Group</label>
+            <input type="text" id="group_artist" placeholder="e.g. Mermelada Bunch" maxlength="50" name="group_artist">
+            <br>
+            <label for="genre">Genre</label>
+            <input type="text" id="genre" placeholder="e.g. Pop" maxlength="25" name="genre">
+            <br>
+            <label for="purchase_date">Purchase Date</label>
+            <input type="date" id="purchase_date" name="purch_date">
+            <br>
+            <label for="price">Price</label>
+            <input type="number" min="0" id="price" name="price" step="0.01">
+            <hr>
+            <input type="submit" value="Sumbit">
+            <input type="reset" value="Cancel">
+        </form>
+    </div>
+</body>
+</html>
