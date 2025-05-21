@@ -5,9 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registrate</title>
     <link rel="stylesheet" href="/css/styles.css">
+    <?php
+    require_once("../php/register.php");
+    ?>
 </head>
 <body>
-    <form action="../php/register.php" method="post">
+    <!-- header -->
+    <?php
+    require_once("../components/header.php")
+    ?>
+    <!-- header -->
+    <!-- <form action="../php/register.php" method="post"> -->
+    <form action="" method="post">
         <label for="user">Usuario:</label>
         <input type="text" name="user" id="user" required>
         <br>
@@ -27,5 +36,6 @@
         <input type="reset" value="Limpiar">
     </form>
     <a href="../index.php">Atras</a>
+    <p><?= $output ?></p>
 </body>
 </html>

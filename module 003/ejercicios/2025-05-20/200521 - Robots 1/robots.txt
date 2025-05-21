@@ -1,0 +1,33 @@
+# Agentes de usuario (robots)
+
+User-agent: a
+Disallow: /carpeta1/
+Disallow: /carpeta2/dos.css
+Allow: /carpeta2/
+
+
+User-agent: b
+Disallow: /carpeta1/
+Disallow: /carpeta2/*.css$
+
+
+User-agent: c
+Disallow: /carpeta2/
+Disallow: /carpeta1/carpeta1B
+
+
+User-agent: d
+Disallow: /carpeta2/
+Allow: /carpeta2/tres.css
+Allow: /carpeta1B/*.pdf$
+
+
+User-agent: e
+Disallow: /carpeta2/*
+Allow: /carpeta2/uno.*
+
+User-agent: *
+Allow: /uno.html
+Disallow: /dos.html
+
+Sitemap: http://www.misitio.com/carpeta3/uno.xml

@@ -1,0 +1,58 @@
+/* 
+Estilos generales para el sitio
+*/
+
+:root {
+    --red-color: #e66251;
+    --beige-color: #E9CA9F;
+    --off-white-color: #F6F3EC;
+    --yellow-color: #EFE07A;
+    --lgreen-color: #B8E892;
+    --dgreen-color: #627355;
+    --swiper-theme-color: #e66251;
+    --swiper-navigation-color: #e66251;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Calibri", sans-serif;
+}
+
+@font-face {
+    font-family: "Tomato";
+    src:
+        local("Tomato"),
+        url("fonts/Sauce\ Tomato.otf") format("opentype");
+}
+
+body {
+    max-width: 1200px;
+    margin: auto;
+}
+
+main {
+    padding: 1rem;
+    min-height: calc(100vh - 425px);
+}
+
+h2 {
+    margin: 1rem auto;
+    text-align: center;
+}
+
+.cursive-text {
+    font-style: italic;
+}
+
+.bold-text {
+    font-weight: bold;
+}
+
+.map {
+    display: block;
+    width: max-content;
+    margin: 1rem auto;
+    border:0;
+}

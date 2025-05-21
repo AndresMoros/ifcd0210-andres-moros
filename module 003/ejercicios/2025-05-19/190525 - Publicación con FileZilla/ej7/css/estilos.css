@@ -1,0 +1,27 @@
+        
+		
+		body
+			{ 
+				background-color: #b8f4b1;
+			}
+		
+		h2{
+			text-align:center;
+		}
+		p{
+	
+			width:50%;
+			margin:auto;
+			text-align:justify;
+		}
+		
+		table
+			{
+				margin: auto;
+			}
+		td
+			{ 
+				font-family:arial, sans-serif; 
+				font-weight: bold; 
+				color:green;
+			}

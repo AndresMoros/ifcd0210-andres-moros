@@ -1,0 +1,61 @@
+<style>
+  :root {
+    --red-color: #e66251;
+    --beige-color: #e9ca9f;
+    --off-white-color: #f6f3ec;
+    --yellow-color: #efe07a;
+    --lgreen-color: #b8e892;
+    --dgreen-color: #627355;
+  }
+  * {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  .item {
+    width: 300px;
+    height: 300px;
+    background-size: cover;
+  }
+  .item__content {
+    background: #ffffffaf;
+    padding: 0.8rem;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    opacity: 0;
+  }
+  .item__title {
+    font-size: 1.2rem;
+  }
+
+  .item:hover .item__content {
+    opacity: 1;
+    transition: all 0.4s ease;
+  }
+
+  .item__btn {
+    width: max-content;
+    text-wrap: nowrap;
+    padding: 1rem;
+    text-decoration: none;
+    padding: 0.3rem 1rem;
+    font-weight: bold;
+    background-color: var(--red-color);
+    color: var(--off-white-color);
+  }
+</style>
+
+<div class="item">
+  <div class="item__content">
+    <h4 class="item__title">Pizza carbonara</h4>
+    <p class="item__description">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit natus
+      vitae ut veritatis animi hic architecto repellat, iusto nisi aut
+      asperiores ipsam dolorem, sit in. Sequi sint rerum architecto temporibus.
+    </p>
+    <a href="/pages/ordena.php" class="item__btn"> ¡Pide ya! </a>
+  </div>
+</div>

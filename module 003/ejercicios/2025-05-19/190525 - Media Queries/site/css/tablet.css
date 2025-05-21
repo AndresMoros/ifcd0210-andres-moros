@@ -1,0 +1,14 @@
+/* 
+ESTILOS PARA TABLETS DE MAS DE 520
+
+*/
+
+:root {
+    --bg-color: #bff3c2;
+}
+
+#container {
+    column-count: 1;
+    width: 480px;
+    font-size: 1.1rem;
+}

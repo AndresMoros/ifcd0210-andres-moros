@@ -1,0 +1,22 @@
+/* 
+ESTILOS GENERALES PARA TODAS LAS RESOLUCIONES
+*/
+
+:root {
+    --bg-color: #e2e2e2;
+    --main-font: 'Calibri', sans-serif;
+}
+
+p, h2, h3, h4 {
+    font-family: var(--main-font);
+}
+
+.bold-text {
+    font-weight: bold;
+}
+
+#container {
+    background-color: var(--bg-color);
+    padding: 1rem;
+    margin: auto;
+}

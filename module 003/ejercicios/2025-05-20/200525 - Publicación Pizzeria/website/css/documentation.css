@@ -1,0 +1,55 @@
+.documentation-container {
+    display: flex;
+    max-width: 800px;
+    margin: auto;
+}
+
+.docs-main {
+    padding: 2.625rem 1rem;
+    background: var(--off-white-color);
+}
+
+.docs-header__title {
+    padding: 1rem 0 1rem;
+    border-bottom: 2px solid #000;
+    padding-right: 1rem;
+}
+
+.docs-navbar {
+    display: flex;
+    flex-direction: column;
+}
+
+.docs-navbar__anchor {
+    display: block;
+    color: #000;
+    padding: .6rem;
+    text-decoration: none;
+
+}
+
+.docs-navbar__anchor:hover {
+    background: var(--off-white-color);
+}
+
+.docs-art {
+    margin-bottom: 2rem;
+}
+
+.docs-art__title {
+    text-align: left !important;
+    margin: 0 0 1rem;
+    border-bottom: 2px solid #000;
+}
+
+.docs-art__paragraph {
+    margin-bottom: .8rem;
+}
+
+.docs-art__list {
+    padding-left: 1rem;
+}
+
+.comeback {
+    color: var(--red-color);
+}

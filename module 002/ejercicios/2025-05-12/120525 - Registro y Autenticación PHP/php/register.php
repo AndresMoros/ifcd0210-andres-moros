@@ -5,10 +5,10 @@ require_once("connection.php");
 # Verificar que el botón de Registrar fue pulsado
 ##
 
+$output = "";
+
 if(isset($_POST["submit-btn"])){
-    register($_POST, $connection);
-} else {
-    echo "No se ejecutó la función";
+    $output = register($_POST, $connection) ? "Usuario registrado con éxito" : "Ha ocurrido un error";
 }
 
 function register(array $arr, $access) {
@@ -29,8 +29,8 @@ function register(array $arr, $access) {
     VALUES 
     ($args)";
 
-    mysqli_query($access, $query);
-    echo "Registrado con éxito";
+    return mysqli_query($access, $query) ? true : false;
+    // echo "Registrado con éxito";
 }
 
 mysqli_close($connection);

@@ -1,0 +1,14 @@
+/* 
+ESTILOS PARA ORDENADORES DE MAS DE 1200px
+
+*/
+
+:root {
+    --bg-color: #d5c0ff;
+}
+
+#container {
+    column-count: 3;
+    width: 1140px;
+    font-size: 1.4rem;
+}

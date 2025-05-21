@@ -1,0 +1,62 @@
+
+.reserve {
+    padding: 1rem;
+    width: 600px;
+    margin: auto;
+    padding: 1rem;
+    background: var(--off-white-color);
+}
+
+.reserve__d-cols-cont {
+    display: flex;
+    justify-content: space-between;
+}
+
+.reserve__d-col {
+    width: 49%;
+    display: flex;
+    flex-direction: column;
+}
+
+.reserve__el {
+    margin: .5rem 0;
+}
+
+.reserve__span {
+    display: block;
+    font-size: 1.5;
+    color: var(--red-color);
+    font-weight: bold;
+}
+
+.reserve__text-input {
+    display: block;
+    width: 100%;
+    font-size: 1.2rem;
+}
+
+.reserve__other-input{
+    font-size: 1.2rem;
+}
+
+.reserve input, .reserve textarea {
+    border: none;
+    outline: 1px solid var(--dgreen-color);
+    border-radius: none;
+}
+
+.reserve__text-area {
+    width: 100%;
+    height: 4rem;
+    resize: none;
+}
+
+.reserve__title {
+    font-size: 1.8rem;
+    color: var(--dgreen-color);
+    font-family: "Tomato";
+    font-weight: lighter;
+    letter-spacing: .12ch;
+    width: 40%;
+    max-width: 400px;
+}

@@ -1,0 +1,14 @@
+/* 
+ESTILOS PARA TELEFONOS DE MAS DE 320px
+
+*/
+
+:root {
+    --bg-color: #f3bfbf;
+}
+
+#container {
+    column-count: 1;
+    width: 300px;
+    font-size: 1rem;
+}

@@ -1,0 +1,79 @@
+/* 
+ESTILOS PARA LA PLANTILLA DEL HEADER DEL SITIO
+*/
+
+header {
+  background: var(--off-white-color);
+  padding: 1rem 0 0;
+  /* display: flex;
+    align-items: center;
+    justify-content: space-between; */
+  display: flex;
+  flex-direction: column;
+}
+
+header img {
+  width: 150px;
+  display: inline-block;
+  margin-left: 1rem;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.brand__name > a {
+  font-family: "Tomato", sans-serif;
+  padding-right: 2rem;
+  font-size: 3rem;
+  color: var(--red-color);
+  text-decoration: none;
+  display: inline-block;
+  width: max-content;
+}
+
+.nav-bar {
+  background: var(--beige-color);
+  display: flex;
+  flex-direction: row-reverse;
+  margin-top: 1rem;
+}
+
+.nav-bar__container {
+  display: flex;
+  align-items: center;
+}
+
+.nav-bar__btn {
+  display: inline-block;
+  height: 100%;
+  padding: 1rem 2rem;
+  color: var(--red-color);
+  font-size: 1.2rem;
+  text-decoration: none;
+  font-weight: bold;
+  text-align: center;
+}
+
+.nav-bar__btn:hover {
+  background: var(--dgreen-color);
+  color: var(--off-white-color);
+  transition: all 0.3s ease-in-out;
+}
+
+#order {
+  /* background: var(--red-color); */
+  background: #ff4747;
+  color: var(--off-white-color);
+  padding: 0.6rem 1.6rem;
+  margin: 0 1rem;
+  text-wrap: nowrap;
+  height: min-content;
+}
+
+#order:hover {
+  background: var(--off-white-color);
+  color: #ff4747;
+}
