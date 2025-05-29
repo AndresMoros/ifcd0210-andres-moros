@@ -41,6 +41,7 @@ Esta es una lista de los recursos y herramientas que he usado personalmente para
 
 ### Fuentes para temas puntuales
 
+- [Meta Tags - Seobility](https://www.seobility.net/es/wiki/Meta_Tags) 
 - [Cómo utilizar la Interpolación de Cadenas en JavaScript - freeCodeCamp](https://www.freecodecamp.org/espanol/news/como-utilizar-la-interpolacion-de-cadenas-en-javascript/)
 - [map, reduce y filter de JavaScript: Funciones de arreglo JS explicadas con ejemplos de código - freeCodeCamp](https://www.freecodecamp.org/espanol/news/map-reduce-y-filter-de-javascript-funciones-de-arreglo-js-explicadas-con-ejemplos-de-codigo/)
 - [Programación funcional en JavaScript: Explicado - freeCodeCamp](https://www.freecodecamp.org/espanol/news/programacion-funcional-en-javascript-explicado/)
@@ -81,7 +82,6 @@ Esta es una lista de los recursos y herramientas que he usado personalmente para
 - [Obsidian](https://obsidian.md/)
 - [Color Wheel - Adobe Color](https://color.adobe.com/es/create/color-wheel)
 - [draw.io](https://app.diagrams.net/)
-
 ## Ficha técnica oficial
 
 [Boletín Oficial del Estado](https://sede.sepe.gob.es/es/portaltrabaja/resources/pdf/especialidades/IFCD0210.pdf)
