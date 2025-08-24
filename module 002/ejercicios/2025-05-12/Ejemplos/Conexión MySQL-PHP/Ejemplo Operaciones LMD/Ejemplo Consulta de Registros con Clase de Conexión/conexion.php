@@ -10,6 +10,7 @@
 		private $password;
 		private $base;
 		private $conexion;
+		private $resultado;
 		
 		function __construct($a,$b,$c,$d){
 			$this->servidor=$a;
