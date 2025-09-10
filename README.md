@@ -61,6 +61,7 @@ Esta es una lista de los recursos y herramientas que he usado personalmente para
 - [Type Hinting en PHP - Diego Tham](https://github.com/diegotham/certificacion-php/blob/master/8-Object-Oriented-Programming/8-type-hinting-en-php.md)
 - [In PHP, function parameters - dev.to](https://dev.to/mainick/in-php-function-parameters-3ne0)
 - [Return Types in PHP - dev.to](https://dev.to/karleb/return-types-in-php-3fip)
+- [PHP: match - php.net](https://www.php.net/manual/es/control-structures.match.php)
 - [Consultar bases de Datos en MySQL - Kingsta](https://kinsta.com/es/blog/listar-bases-de-datos-mysql/)
 - [Sobre Collation y Charset en MySQL - Unreal 4B](https://blog.unreal4u.com/2012/08/sobre-collation-y-charset-en-mysql/)
 - [¿Qué es NoSQL? - MongoDB](https://www.mongodb.com/es/resources/basics/databases/nosql-explained)
